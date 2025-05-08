@@ -12,7 +12,7 @@ const deportes = {
   "salto-pasiego": {
     nombre: "Salto Pasiego",
     historia:
-      "El salto pasiego es una técnica tradicional de los habitantes de los Valles Pasiegos en Cantabria. Utilizando un palo largo o 'cuatropea' como pértiga, los pasiegos saltaban sobre los arroyos, muros de piedra y terrenos accidentados mientras se desplazaban con sus ganados por las laderas montañosas. Esta práctica surgió como una necesidad para moverse eficientemente por el terreno escarpado de la región, y con el tiempo se convirtió en una habilidad distintiva y en una competición deportiva.",
+      "El salto pasiego es una técnica tradicional de los habitantes de los Valles Pasiegos en Cantabria. Utilizando un palo largo o 'cuatropea' como pértiga, los pasiegos saltaban sobre los arroyos, muros de piedra y terrenos accidentados mientras se desplazaban con sus ganados por las laderas montañosas. Esta práctica surgió como una necesidad para moverse por el terreno escarpado de la región, y con el tiempo se convirtió en una habilidad distintiva y en una competición deportiva.",
     reglas:
       "En la competición moderna de salto pasiego, los participantes utilizan una pértiga de madera de avellano de unos 3 metros de longitud. El objetivo es superar obstáculos o distancias horizontales, apoyando la pértiga en el suelo y elevándose para salvar el obstáculo. Se valora tanto la distancia alcanzada como la técnica y el estilo del saltador. Las competiciones suelen organizarse en diferentes categorías según la edad y experiencia de los participantes.",
     imagenes: [
