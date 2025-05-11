@@ -20,6 +20,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/imagenes/logo/marycumbreico.ico" sizes="any" />
+        <title>Marycumbre</title>
+        <meta name="description" content="Descubre los deportes rurales y tradicionales de Cantabria" />
+      </head>
       <body className={`${inter.className} min-h-screen flex flex-col bg-emerald-50`}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <Navbar />

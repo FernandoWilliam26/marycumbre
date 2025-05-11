@@ -3,64 +3,67 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const equipo = [
   {
-    nombre: "Ana García",
-    rol: "Directora del Proyecto",
+    nombre: "Alberto Fernández",
+    rol: "Periodista",
     descripcion:
-      "Historiadora especializada en tradiciones cántabras con más de 15 años de experiencia en la investigación de deportes rurales.",
+      "",
     imagen: "/placeholder.svg?height=300&width=300",
   },
   {
-    nombre: "Carlos Martínez",
-    rol: "Investigador Principal",
+    nombre: "Antonio Sisniega",
+    rol: "Periodista",
     descripcion:
-      "Doctor en Antropología Cultural, centrado en el estudio de las manifestaciones deportivas tradicionales del norte de España.",
+      "",
     imagen: "/placeholder.svg?height=300&width=300",
   },
   {
-    nombre: "Elena Fernández",
-    rol: "Coordinadora de Contenidos",
+    nombre: "Javier Montes",
+    rol: "Periodista",
     descripcion:
-      "Periodista deportiva con amplia experiencia en la cobertura de competiciones de deportes tradicionales.",
+      "",
     imagen: "/placeholder.svg?height=300&width=300",
   },
   {
-    nombre: "Miguel Sánchez",
-    rol: "Fotógrafo",
-    descripcion: "Fotógrafo profesional especializado en eventos deportivos y culturales de Cantabria.",
+    nombre: "Mario Fuertes",
+    rol: "Periodista",
+    descripcion: 
+      "",
     imagen: "/placeholder.svg?height=300&width=300",
   },
   {
-    nombre: "Laura Pérez",
-    rol: "Diseñadora Web",
+    nombre: "Borja Antonio Martínez",
+    rol: "Informático",
     descripcion:
-      "Diseñadora UX/UI con pasión por la cultura cántabra y experiencia en proyectos de divulgación cultural.",
+      "",
     imagen: "/placeholder.svg?height=300&width=300",
   },
   {
-    nombre: "Javier López",
-    rol: "Desarrollador Frontend",
-    descripcion: "Ingeniero informático especializado en desarrollo web con React y tecnologías modernas.",
+    nombre: "Fernando William Calvo",
+    rol: "Informático",
+    descripcion: 
+      "",
     imagen: "/placeholder.svg?height=300&width=300",
   },
   {
-    nombre: "Sofía Ruiz",
-    rol: "Desarrolladora Backend",
-    descripcion: "Programadora con experiencia en arquitectura de sistemas y bases de datos para proyectos culturales.",
+    nombre: "Eduardo Lostal",
+    rol: "Informático",
+    descripcion: 
+      "",
     imagen: "/placeholder.svg?height=300&width=300",
   },
   {
-    nombre: "Daniel Torres",
-    rol: "Especialista en 3D",
+    nombre: "Marcos de Blas",
+    rol: "Informático",
     descripcion:
-      "Modelador 3D y animador con experiencia en la recreación virtual de elementos deportivos y culturales.",
+      "",
     imagen: "/placeholder.svg?height=300&width=300",
   },
   {
-    nombre: "Patricia Gómez",
-    rol: "Community Manager",
+    nombre: "Rodrigo Villa",
+    rol: "Informático",
     descripcion:
-      "Experta en redes sociales y comunicación digital, apasionada de los deportes tradicionales cántabros.",
-    imagen: "/placeholder.svg?height=300&width=300",
+      "",
+    imagen: "/imagenes/conocenos/Rodrigo.jpg?height=300&width=300",
   },
 ]
 
@@ -71,7 +74,7 @@ export default function ConocenosPage() {
 
       <div className="max-w-3xl mx-auto mb-12 text-center">
         <p className="text-lg text-gray-700">
-          Somos un equipo multidisciplinar de profesionales apasionados por la cultura y las tradiciones de Cantabria.
+          Somos un equipo multidisciplinar de estudiantes apasionados por el deporte y las tradiciones de Cantabria.
           Nuestro objetivo es preservar, documentar y difundir el rico patrimonio deportivo de nuestra región,
           acercándolo tanto a los cántabros como a visitantes y curiosos de todo el mundo.
         </p>
@@ -83,12 +86,12 @@ export default function ConocenosPage() {
             key={index}
             className="overflow-hidden border-emerald-200 hover:shadow-xl transition-all duration-300 hover:scale-105 group"
           >
-            <div className="relative w-full h-64 overflow-hidden">
+            <div className="relative w-full h-64 overflow-hidden bg-white flex items-center justify-center">
               <Image
                 src={miembro.imagen || "/placeholder.svg"}
                 alt={miembro.nombre}
                 fill
-                className="object-cover transition-transform duration-500 group-hover:scale-110"
+                className="object-contain transition-transform duration-500 group-hover:scale-110"
               />
             </div>
             <CardHeader>

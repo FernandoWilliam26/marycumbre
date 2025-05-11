@@ -11,6 +11,7 @@ import { X } from "lucide-react"
 const deportes = {
   "salto-pasiego": {
     nombre: "Salto Pasiego",
+    portada: "/placeholder.svg?height=600&width=1200",
     historia:
       "El salto pasiego es una técnica tradicional de los habitantes de los Valles Pasiegos en Cantabria. Utilizando un palo largo o 'cuatropea' como pértiga, los pasiegos saltaban sobre los arroyos, muros de piedra y terrenos accidentados mientras se desplazaban con sus ganados por las laderas montañosas. Esta práctica surgió como una necesidad para moverse por el terreno escarpado de la región, y con el tiempo se convirtió en una habilidad distintiva y en una competición deportiva.",
     reglas:
@@ -46,22 +47,49 @@ const deportes = {
   },
   "bolo-palma": {
     nombre: "Bolo Palma",
+    portada: "/imagenes/bolos/Fotos/JPG/IMG_6596.jpg?height=600&width=1200",
     historia:
       "El bolo palma es el juego de bolos más extendido y popular en Cantabria, con raíces que se remontan varios siglos atrás. Este deporte tradicional se ha transmitido de generación en generación y forma parte esencial del patrimonio cultural cántabro. Las primeras referencias escritas datan del siglo XVI, aunque se cree que su práctica es mucho más antigua. A lo largo del siglo XX, el bolo palma se organizó como deporte federado, estableciéndose competiciones regulares y un reglamento oficial.",
     reglas:
       "El juego consiste en lanzar bolas (normalmente de madera) desde una distancia determinada para derribar el mayor número posible de bolos (piezas cilíndricas de madera). La bolera tradicional tiene forma rectangular y cuenta con 9 bolos dispuestos en tres filas, más un décimo bolo llamado 'emboque'. Los jugadores realizan varios lanzamientos o 'tiradas' desde diferentes posiciones. La puntuación depende del número de bolos derribados y de si se consigue el 'emboque', que otorga puntos adicionales.",
     imagenes: [
-      "/placeholder.svg?height=300&width=400",
-      "/placeholder.svg?height=300&width=400",
-      "/placeholder.svg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6564.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6565.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6566.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6567.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6572.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6573.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6574.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6591.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6595.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6597.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6599.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6602.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6603.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6604.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6605.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6610.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6653.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6655.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6656.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6658.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6667.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6668.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6675.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6676.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6678.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6680.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6695.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6697.jpg?height=300&width=400",
+
     ],
     noticias: [
       {
         id: "noticia-1",
-        titulo: "La Peña Bolística de Torrelavega gana la Liga Regional",
-        fecha: "10/09/2023",
+        titulo: "Peñacastillo se queda a las puertas de la remontada",
+        fecha: "05/04/2025",
         resumen:
-          "Tras una temporada espectacular, la Peña Bolística de Torrelavega se ha proclamado campeona de la Liga Regional de Bolo Palma.",
+          "El encuentro entre Peñacastillo y Borbolla concluyó con un 3-3 que no deja satisfecho a ninguno.",
       },
       {
         id: "noticia-2",
@@ -81,6 +109,7 @@ const deportes = {
   },
   ultimate: {
     nombre: "Ultimate",
+    portada: "/placeholder.svg?height=600&width=1200",
     historia:
       "Aunque el Ultimate no es un deporte tradicional de Cantabria, ha ganado popularidad en la región en las últimas décadas. Este deporte fue inventado en Estados Unidos en la década de 1960 y llegó a España en los años 80. En Cantabria, comenzó a practicarse en los años 90, principalmente en entornos universitarios y en las playas durante el verano. Con el tiempo, se han formado clubes locales y se organizan torneos regulares, especialmente en la modalidad de playa, aprovechando el litoral cántabro.",
     reglas:
@@ -109,6 +138,7 @@ const deportes = {
   },
   palas: {
     nombre: "Palas",
+    portada: "/placeholder.svg?height=600&width=1200",
     historia:
       "El juego de palas es una actividad recreativa muy arraigada en las playas del norte de España, incluidas las de Cantabria. Aunque no tiene un origen específicamente cántabro, forma parte de la cultura playera de la región desde hace generaciones. Las palas, en su formato actual con raquetas de madera, se popularizaron a mediados del siglo XX como una actividad de ocio veraniega. En Cantabria, es habitual ver a familias y grupos de amigos jugando a palas en playas como El Sardinero, Laredo o Castro Urdiales durante los meses de verano.",
     reglas:
@@ -151,6 +181,7 @@ const deportes = {
   },
   remo: {
     nombre: "Remo",
+    portada: "/placeholder.svg?height=600&width=1200",
     historia:
       "El remo en Cantabria tiene una larga tradición vinculada a la actividad pesquera y marítima de la región. Las regatas de traineras, embarcaciones originalmente utilizadas para la pesca, se remontan al siglo XIX cuando las diferentes cofradías de pescadores competían por llegar primero a los bancos de pesca o al puerto para vender el pescado. Con el tiempo, estas competiciones informales evolucionaron hacia un deporte organizado. En Cantabria, localidades como Castro Urdiales, Laredo, Santoña y Pedreña tienen una fuerte tradición remera, con clubes históricos que han conseguido importantes éxitos a nivel nacional.",
     reglas:
@@ -186,6 +217,7 @@ const deportes = {
   },
   "futbol-playa": {
     nombre: "Fútbol Playa",
+    portada: "/placeholder.svg?height=600&width=1200",
     historia:
       "El fútbol playa, aunque no es originario de Cantabria, ha encontrado en las playas cántabras un escenario ideal para su práctica y desarrollo. Este deporte comenzó a popularizarse a nivel internacional en la década de 1990, y llegó a las costas cántabras a finales de esa década. Desde entonces, ha ido ganando adeptos, especialmente durante los meses de verano. En playas como El Sardinero, Laredo o Somo se organizan torneos veraniegos que atraen a numerosos participantes y espectadores. Cantabria ha acogido también competiciones oficiales de ámbito nacional e internacional, contribuyendo a la promoción de este deporte en la región.",
     reglas:
@@ -238,14 +270,12 @@ export default function DeportePage() {
       <div className="mb-12">
         <div className="relative w-full h-[400px] mb-8 rounded-lg overflow-hidden shadow-lg">
           <Image
-            src={deporte.imagenes[0] || "/placeholder.svg?height=600&width=1200"}
+            src={deporte.portada || "/placeholder.svg?height=600&width=1200"}
             alt={deporte.nombre}
             fill
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
-            <h2 className="text-3xl font-bold text-white p-8">{deporte.nombre}</h2>
-          </div>
+          
         </div>
       </div>
 
@@ -261,11 +291,11 @@ export default function DeportePage() {
 
       <section className="mb-12">
         <h2 className="text-2xl font-bold mb-6 text-emerald-700">Galería de Imágenes</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="flex overflow-x-auto space-x-6 pb-4 snap-x snap-mandatory">
           {deporte.imagenes.map((imagen, index) => (
             <div
               key={index}
-              className="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer"
+              className="flex-shrink-0 w-[400px] h-[300px] overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer snap-center"
               onClick={() => setSelectedImage(imagen)}
             >
               <Image
@@ -273,7 +303,7 @@ export default function DeportePage() {
                 alt={`${deporte.nombre} imagen ${index + 1}`}
                 width={400}
                 height={300}
-                className="w-full h-auto object-cover hover:scale-110 transition-transform duration-500"
+                className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
               />
             </div>
           ))}

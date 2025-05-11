@@ -2,8 +2,9 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { Menu, X } from "lucide-react"
+import { Menu, X, ChevronDown} from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 const deportes = [
   { id: "salto-pasiego", nombre: "Salto Pasiego" },
@@ -21,8 +22,16 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 w-full border-b bg-gradient-to-r from-emerald-600 to-teal-500 text-white backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
+          <Image
+            src="/imagenes/logo/marycumbre.png"  // Ruta al logo
+            alt="Logo Marycumbre"
+            width={40}       // Ajusta si ves que quieres un poquito más pequeño o más grande
+            height={40}
+            className="object-contain"
+          />
           <span className="hidden font-bold sm:inline-block text-white text-xl">Marycumbre</span>
         </Link>
+
 
         <nav className="hidden md:flex items-center justify-end">
           <div className="flex items-center space-x-6">
@@ -30,10 +39,10 @@ export default function Navbar() {
               Inicio
             </Link>
             <div className="relative group">
-              <Button variant="ghost" className="text-sm font-medium transition-colors hover:text-yellow-300">
-                Deportes
-              </Button>
-              <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+              <button className="flex items-center text-sm font-medium transition-colors hover:text-yellow-300 focus:outline-none">
+                Deportes <ChevronDown className="ml-1 h-4 w-4" />
+              </button>
+              <div className="absolute left-0 mt-2 w-48 rounded-md bg-white text-gray-700 opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-300 z-50 shadow-lg">
                 <div className="py-1">
                   {deportes.map((deporte) => (
                     <Link
