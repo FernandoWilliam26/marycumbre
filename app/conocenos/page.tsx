@@ -5,65 +5,65 @@ const equipo = [
   {
     nombre: "Alberto Fernández",
     rol: "Periodista",
-    descripcion:
-      "",
+    descripcion: "",
     imagen: "/placeholder.svg?height=300&width=300",
+    linkedin: "https://linkedin.com/in/alberto-fernandez", 
   },
   {
     nombre: "Antonio Sisniega",
     rol: "Periodista",
-    descripcion:
-      "",
+    descripcion: "",
     imagen: "/placeholder.svg?height=300&width=300",
+    linkedin: "https://linkedin.com/in/antonio-sisniega",
   },
   {
     nombre: "Javier Montes",
     rol: "Periodista",
-    descripcion:
-      "",
+    descripcion: "",
     imagen: "/placeholder.svg?height=300&width=300",
+    linkedin: "https://linkedin.com/in/javier-montes",
   },
   {
     nombre: "Mario Fuertes",
     rol: "Periodista",
-    descripcion: 
-      "",
+    descripcion: "",
     imagen: "/placeholder.svg?height=300&width=300",
+    linkedin: "https://linkedin.com/in/mario-fuertes", 
   },
   {
     nombre: "Borja Antonio Martínez",
     rol: "Informático",
-    descripcion:
-      "",
+    descripcion: "",
     imagen: "/placeholder.svg?height=300&width=300",
+    linkedin: "https://linkedin.com/in/borja-antonio-martinez",
   },
   {
     nombre: "Fernando William Calvo",
     rol: "Informático",
-    descripcion: 
-      "",
+    descripcion: "",
     imagen: "/placeholder.svg?height=300&width=300",
+    linkedin: "https://linkedin.com/in/fernando-william-calvo", 
   },
   {
     nombre: "Eduardo Lostal",
     rol: "Informático",
-    descripcion: 
-      "",
+    descripcion: "",
     imagen: "/placeholder.svg?height=300&width=300",
+    linkedin: "https://linkedin.com/in/eduardo-lostal", 
   },
   {
     nombre: "Marcos de Blas",
     rol: "Informático",
-    descripcion:
-      "",
+    descripcion: "",
     imagen: "/placeholder.svg?height=300&width=300",
+    linkedin: "https://linkedin.com/in/marcos-de-blas", 
   },
   {
     nombre: "Rodrigo Villa",
     rol: "Informático",
-    descripcion:
-      "",
+    descripcion: "",
     imagen: "/imagenes/conocenos/Rodrigo.jpg?height=300&width=300",
+    linkedin: "https://www.linkedin.com/in/rodrigo-villa-p%C3%A9rez-b78491353/",
   },
 ]
 
@@ -82,26 +82,31 @@ export default function ConocenosPage() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
         {equipo.map((miembro, index) => (
-          <Card
+          <a
             key={index}
-            className="overflow-hidden border-emerald-200 hover:shadow-xl transition-all duration-300 hover:scale-105 group"
+            href={miembro.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group"
           >
-            <div className="relative w-full h-64 overflow-hidden bg-white flex items-center justify-center">
-              <Image
-                src={miembro.imagen || "/placeholder.svg"}
-                alt={miembro.nombre}
-                fill
-                className="object-contain transition-transform duration-500 group-hover:scale-110"
-              />
-            </div>
-            <CardHeader>
-              <CardTitle className="text-emerald-700">{miembro.nombre}</CardTitle>
-              <CardDescription className="font-medium">{miembro.rol}</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <p className="text-gray-700">{miembro.descripcion}</p>
-            </CardContent>
-          </Card>
+            <Card className="overflow-hidden border-emerald-200 hover:shadow-xl transition-all duration-300 hover:scale-105">
+              <div className="relative w-full h-64 overflow-hidden bg-white flex items-center justify-center">
+                <Image
+                  src={miembro.imagen || "/placeholder.svg"}
+                  alt={miembro.nombre}
+                  fill
+                  className="object-contain transition-transform duration-500 group-hover:scale-110"
+                />
+              </div>
+              <CardHeader>
+                <CardTitle className="text-emerald-700">{miembro.nombre}</CardTitle>
+                <CardDescription className="font-medium">{miembro.rol}</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-700">{miembro.descripcion}</p>
+              </CardContent>
+            </Card>
+          </a>
         ))}
       </div>
 
@@ -110,8 +115,7 @@ export default function ConocenosPage() {
         <p className="text-lg text-center mb-0 text-gray-700">
           Nuestra misión es investigar, preservar y difundir los deportes tradicionales de Cantabria, contribuyendo a
           mantener vivo este importante patrimonio cultural. Trabajamos para documentar estas prácticas deportivas,
-          promover su conocimiento entre las Trabajamos para documentar estas prácticas deportivas, promover su
-          conocimiento entre las nuevas generaciones y fomentar su práctica como parte de un estilo de vida saludable y
+          promover su conocimiento entre las nuevas generaciones y fomentar su práctica como parte de un estilo de vida saludable y
           conectado con nuestras raíces.
         </p>
       </section>
