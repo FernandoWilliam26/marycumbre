@@ -49,12 +49,12 @@ export default function Home() {
         <div className="md:w-1/2">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-emerald-700">Marycumbre</h1>
           <p className="text-lg mb-6 text-gray-700">
-            Sumérgete en la esencia de Cantabria a través de su tradición deportiva, un reflejo de la pasión, la fuerza y el arraigo de su gente. Desde los antiguos 
-            saltos pasiegos hasta las emocionantes regatas de traineras, cada disciplina cuenta una historia que sigue viva en el corazón de la región. 
+            Sumérgete en la esencia de Cantabria a través de su tradición deportiva, un reflejo de la pasión, la fuerza y el arraigo de su gente. Desde los antiguos
+            saltos pasiegos hasta las emocionantes regatas de traineras, cada disciplina cuenta una historia que sigue viva en el corazón de la región.
           </p>
           <p className="text-lg mb-6 text-gray-700">
-            En esta página encontrarás un recorrido por los deportes más representativos de Cantabria. También juegos autóctonos como el bolo palma, actividades de playa 
-            como las palas y el fútbol playa, o deportes modernos que han encontrado en Cantabria un nuevo hogar como el ultimate. Acompáñanos y conoce un patrimonio 
+            En esta página encontrarás un recorrido por los deportes más representativos de Cantabria. También juegos autóctonos como el bolo palma, actividades de playa
+            como las palas y el fútbol playa, o deportes modernos que han encontrado en Cantabria un nuevo hogar como el ultimate. Acompáñanos y conoce un patrimonio
             deportivo único que sigue latiendo con fuerza generación tras generación.
           </p>
         </div>
@@ -65,7 +65,10 @@ export default function Home() {
               alt="Paisaje de Cantabria"
               width={500}
               height={500}
-              className="rounded-lg shadow-lg w-full h-auto"
+              className="w-full h-auto"
+              style={{
+                filter: "drop-shadow(0 8px 32px rgba(16, 185, 129, 0.35))"
+              }}
             />
           </div>
         </div>

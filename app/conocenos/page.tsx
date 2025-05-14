@@ -7,7 +7,7 @@ const equipo = [
     rol: "Periodista",
     descripcion: "",
     imagen: "/placeholder.svg?height=300&width=300",
-    linkedin: "https://linkedin.com/in/alberto-fernandez", 
+    linkedin: "https://linkedin.com/in/alberto-fernandez",
   },
   {
     nombre: "Antonio Sisniega",
@@ -28,7 +28,7 @@ const equipo = [
     rol: "Periodista",
     descripcion: "",
     imagen: "/placeholder.svg?height=300&width=300",
-    linkedin: "https://linkedin.com/in/mario-fuertes", 
+    linkedin: "https://linkedin.com/in/mario-fuertes",
   },
   {
     nombre: "Borja Antonio Martínez",
@@ -42,21 +42,21 @@ const equipo = [
     rol: "Informático",
     descripcion: "",
     imagen: "/placeholder.svg?height=300&width=300",
-    linkedin: "https://linkedin.com/in/fernando-william-calvo", 
+    linkedin: "https://linkedin.com/in/fernando-william-calvo",
   },
   {
     nombre: "Eduardo Lostal",
     rol: "Informático",
     descripcion: "",
     imagen: "/placeholder.svg?height=300&width=300",
-    linkedin: "https://linkedin.com/in/eduardo-lostal", 
+    linkedin: "https://linkedin.com/in/eduardo-lostal",
   },
   {
     nombre: "Marcos de Blas",
     rol: "Informático",
     descripcion: "",
-    imagen: "/placeholder.svg?height=300&width=300",
-    linkedin: "https://linkedin.com/in/marcos-de-blas", 
+    imagen: "/imagenes/conocenos/Marcos.jpg?height=300&width=300",
+    linkedin: "https://www.linkedin.com/in/marcos-de-blas-g%C3%B3mez-8065b3353/",
   },
   {
     nombre: "Rodrigo Villa",
