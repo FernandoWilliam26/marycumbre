@@ -4,10 +4,10 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 const equipo = [
   {
     nombre: "Alberto Fernández",
-    rol: "Periodista",
+    rol: "Estudiante de Periodismo y Título de Experto en Relaciones Internacionales",
     descripcion: "",
-    imagen: "/placeholder.svg?height=300&width=300",
-    linkedin: "https://linkedin.com/in/alberto-fernandez",
+    imagen: "/imagenes/conocenos/Alberto.jpeg?height=300&width=300",
+    linkedin: "https://www.linkedin.com/in/alberto-fern%C3%A1ndez-cruz-b94377307?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
   {
     nombre: "Antonio Sisniega",
@@ -32,17 +32,17 @@ const equipo = [
   },
   {
     nombre: "Borja Antonio Martínez",
-    rol: "Informático",
+    rol: "Estudiante de Grado en Ingeniería Informática || Becario de desarrollo frontend en Soincon EMI Suite 4.0",
     descripcion: "",
-    imagen: "/placeholder.svg?height=300&width=300",
-    linkedin: "https://linkedin.com/in/borja-antonio-martinez",
+    imagen: "/imagenes/conocenos/Borja.jpeg?height=300&width=300",
+    linkedin: "https://www.linkedin.com/in/borja-antonio-mart%C3%ADnez-fern%C3%A1ndez-36109220a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
     nombre: "Fernando William Calvo",
-    rol: "Informático",
+    rol: "Estudiante Grado Ingeniería Informática",
     descripcion: "",
     imagen: "/placeholder.svg?height=300&width=300",
-    linkedin: "https://linkedin.com/in/fernando-william-calvo",
+    linkedin: "https://www.linkedin.com/in/fernando-william-calvo-m%C3%A9ndez-95606a168?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
   {
     nombre: "Eduardo Lostal",
@@ -53,14 +53,14 @@ const equipo = [
   },
   {
     nombre: "Marcos de Blas",
-    rol: "Informático",
+    rol: "Estudiante en Universidad Europea del Atlántico || Becario en NTT Data",
     descripcion: "",
     imagen: "/imagenes/conocenos/Marcos.jpg?height=300&width=300",
     linkedin: "https://www.linkedin.com/in/marcos-de-blas-g%C3%B3mez-8065b3353/",
   },
   {
     nombre: "Rodrigo Villa",
-    rol: "Informático",
+    rol: "Estudiante de Grado en Ingeniería Informática || Becario en NTT DATA",
     descripcion: "",
     imagen: "/imagenes/conocenos/Rodrigo.jpg?height=300&width=300",
     linkedin: "https://www.linkedin.com/in/rodrigo-villa-p%C3%A9rez-b78491353/",
