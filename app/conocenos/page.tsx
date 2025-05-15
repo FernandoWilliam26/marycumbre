@@ -72,6 +72,18 @@ export default function ConocenosPage() {
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold mb-6 text-center text-emerald-700">Nuestro Equipo</h1>
 
+      <div className="mb-8">
+        <div className="relative w-[400px] h-[500px] mb-8 ml-auto mr-auto rounded-lg overflow-hidden shadow-lg">
+          <Image
+            src={"/imagenes/conocenos/AllGroup.jpeg"}
+            alt={'AllGroup image'}
+            fill
+            className="object-cover aspect-square"
+          />
+
+        </div>
+      </div>
+
       <div className="max-w-3xl mx-auto mb-12 text-center">
         <p className="text-lg text-gray-700">
           Somos un equipo multidisciplinar de estudiantes apasionados por el deporte y las tradiciones de Cantabria.

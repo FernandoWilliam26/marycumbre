@@ -27,19 +27,7 @@ const deportes = [
     nombre: "Palas",
     descripcion: "Juego de playa tradicional con palas de madera",
     imagen: "/placeholder.svg?height=200&width=300",
-  },
-  {
-    id: "remo",
-    nombre: "Remo",
-    descripcion: "Deporte acuático tradicional en la costa cantábrica",
-    imagen: "/placeholder.svg?height=200&width=300",
-  },
-  {
-    id: "futbol-playa",
-    nombre: "Fútbol Playa",
-    descripcion: "Variante del fútbol jugado en las playas de Cantabria",
-    imagen: "/placeholder.svg?height=200&width=300",
-  },
+  }
 ]
 
 export default function Home() {
@@ -76,7 +64,7 @@ export default function Home() {
 
       <section className="mb-16">
         <h2 className="text-3xl font-bold mb-8 text-center text-emerald-700">Nuestros Deportes</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {deportes.map((deporte) => (
             <Link href={`/deporte/${deporte.id}`} key={deporte.id} className="block">
               <Card className="overflow-hidden border-emerald-200 hover:shadow-xl transition-all duration-300 hover:scale-105 group cursor-pointer h-full">
