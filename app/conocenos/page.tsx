@@ -70,7 +70,7 @@ const equipo = [
 export default function ConocenosPage() {
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold mb-6 text-center text-emerald-700">Nuestro Equipo</h1>
+      <h1 className="text-4xl font-bold mb-6 text-center text-[#049695]">Nuestro Equipo</h1>
 
       <div className="mb-8">
         <div className="relative w-[400px] h-[500px] mb-8 ml-auto mr-auto rounded-lg overflow-hidden shadow-lg">
@@ -111,7 +111,7 @@ export default function ConocenosPage() {
                 />
               </div>
               <CardHeader>
-                <CardTitle className="text-emerald-700">{miembro.nombre}</CardTitle>
+                <CardTitle className="text-[#049695]">{miembro.nombre}</CardTitle>
                 <CardDescription className="font-medium">{miembro.rol}</CardDescription>
               </CardHeader>
               <CardContent>
@@ -123,7 +123,7 @@ export default function ConocenosPage() {
       </div>
 
       <section className="bg-gradient-to-r from-emerald-100 to-teal-100 p-8 rounded-lg mb-8">
-        <h2 className="text-2xl font-bold mb-4 text-center text-emerald-700">Nuestra Misión</h2>
+        <h2 className="text-2xl font-bold mb-4 text-center text-[#049695]">Nuestra Misión</h2>
         <p className="text-lg text-center mb-0 text-gray-700">
           Nuestra misión es investigar, preservar y difundir los deportes tradicionales de Cantabria, contribuyendo a
           mantener vivo este importante patrimonio cultural. Trabajamos para documentar estas prácticas deportivas,
@@ -133,7 +133,7 @@ export default function ConocenosPage() {
       </section>
 
       <section className="text-center mb-8">
-        <h2 className="text-2xl font-bold mb-4 text-emerald-700">¿Quieres colaborar con nosotros?</h2>
+        <h2 className="text-2xl font-bold mb-4 text-[#049695]">¿Quieres colaborar con nosotros?</h2>
         <p className="text-lg mb-6 text-gray-700">
           Si tienes conocimientos sobre deportes tradicionales de Cantabria, fotografías históricas, testimonios o
           cualquier material que pueda enriquecer nuestro proyecto, nos encantaría contar con tu colaboración. Juntos
