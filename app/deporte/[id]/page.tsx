@@ -111,7 +111,7 @@ const deportes = {
     nombre: "Ultimate",
     portada: "/placeholder.svg?height=600&width=1200",
     historia:
-      "Aunque el Ultimate no es un deporte tradicional de Cantabria, ha ganado popularidad en la región en las últimas décadas. Este deporte fue inventado en Estados Unidos en la década de 1960 y llegó a España en los años 80. En Cantabria, comenzó a practicarse en los años 90, principalmente en entornos universitarios y en las playas durante el verano. Con el tiempo, se han formado clubes locales y se organizan torneos regulares, especialmente en la modalidad de playa, aprovechando el litoral cántabro.",
+      "Aunque el Ultimate no es un deporte tradicional de Cantabria, ha ganado popularidad en la región en las últimas décadas. Este deporte fue inventado en Estados Unidos en la década de 1960 y llegó a España en los años 80. En Cantabria, comenzó a practicarse en 2005. Con el tiempo, se han formado clubes locales y se organizan torneos regulares, especialmente en la modalidad de playa, aprovechando el litoral cántabro. Actualmente el único equipo en activo es Corocotta Ultimate Cantabria.",
     reglas:
       "El Ultimate se juega con un disco volador (frisbee) en un campo rectangular con zonas de gol en ambos extremos. Los equipos, generalmente de 7 jugadores, intentan avanzar el disco mediante pases hasta completar uno en la zona de gol contraria. El jugador con el disco no puede correr y tiene un tiempo limitado para pasarlo. Si el disco cae al suelo, toca fuera del campo o es interceptado, la posesión pasa al equipo contrario. Una característica distintiva es que se juega sin árbitros, basándose en el 'espíritu de juego' y la deportividad de los participantes.",
     imagenes: [
