@@ -178,79 +178,7 @@ const deportes = {
           "Una empresa cántabra ha lanzado una línea de palas fabricadas con materiales sostenibles y respetuosos con el medio ambiente.",
       },
     ],
-  },
-  remo: {
-    nombre: "Remo",
-    portada: "/placeholder.svg?height=600&width=1200",
-    historia:
-      "El remo en Cantabria tiene una larga tradición vinculada a la actividad pesquera y marítima de la región. Las regatas de traineras, embarcaciones originalmente utilizadas para la pesca, se remontan al siglo XIX cuando las diferentes cofradías de pescadores competían por llegar primero a los bancos de pesca o al puerto para vender el pescado. Con el tiempo, estas competiciones informales evolucionaron hacia un deporte organizado. En Cantabria, localidades como Castro Urdiales, Laredo, Santoña y Pedreña tienen una fuerte tradición remera, con clubes históricos que han conseguido importantes éxitos a nivel nacional.",
-    reglas:
-      "Las regatas de traineras se disputan con embarcaciones de 12 metros de eslora tripuladas por 13 remeros y un patrón. La competición consiste en recorrer una distancia determinada (habitualmente entre 3 y 5 kilómetros) en el menor tiempo posible. El recorrido suele ser de ida y vuelta con una ciaboga (giro) en el punto intermedio. Las regatas pueden disputarse en línea recta o en un campo de regatas con calles. La Liga ACT (Asociación de Clubes de Traineras) es la competición más prestigiosa, donde participan los mejores clubes del Cantábrico, incluidos varios equipos cántabros.",
-    imagenes: [
-      "/placeholder.svg?height=300&width=400",
-      "/placeholder.svg?height=300&width=400",
-      "/placeholder.svg?height=300&width=400",
-    ],
-    noticias: [
-      {
-        id: "noticia-1",
-        titulo: "La trainera de Pedreña consigue la victoria en la Bandera de Santander",
-        fecha: "25/07/2023",
-        resumen:
-          "En una emocionante regata, la tripulación de Pedreña se impuso por escaso margen en la tradicional Bandera de Santander.",
-      },
-      {
-        id: "noticia-2",
-        titulo: "Comienza la temporada de regatas en Cantabria",
-        fecha: "10/06/2023",
-        resumen:
-          "Este fin de semana arranca oficialmente la temporada de regatas en Cantabria con la disputa de la primera jornada de la Liga Regional.",
-      },
-      {
-        id: "noticia-3",
-        titulo: "Nuevas traineras para los clubes cántabros",
-        fecha: "15/05/2023",
-        resumen:
-          "Varios clubes cántabros han presentado sus nuevas embarcaciones para la próxima temporada de regatas.",
-      },
-    ],
-  },
-  "futbol-playa": {
-    nombre: "Fútbol Playa",
-    portada: "/placeholder.svg?height=600&width=1200",
-    historia:
-      "El fútbol playa, aunque no es originario de Cantabria, ha encontrado en las playas cántabras un escenario ideal para su práctica y desarrollo. Este deporte comenzó a popularizarse a nivel internacional en la década de 1990, y llegó a las costas cántabras a finales de esa década. Desde entonces, ha ido ganando adeptos, especialmente durante los meses de verano. En playas como El Sardinero, Laredo o Somo se organizan torneos veraniegos que atraen a numerosos participantes y espectadores. Cantabria ha acogido también competiciones oficiales de ámbito nacional e internacional, contribuyendo a la promoción de este deporte en la región.",
-    reglas:
-      "El fútbol playa se juega en un campo rectangular de arena con porterías más pequeñas que las del fútbol convencional. Los equipos están formados por cinco jugadores, incluyendo el portero, y los partidos se dividen en tres periodos de 12 minutos cada uno. Las reglas favorecen el juego ofensivo y espectacular, permitiendo realizar sustituciones ilimitadas y penalizando la pasividad en el juego. Los empates se resuelven con prórroga y, si es necesario, tanda de penaltis. Una característica distintiva es que muchas faltas se sancionan con tiros libres directos sin barrera, lo que aumenta las posibilidades de gol.",
-    imagenes: [
-      "/placeholder.svg?height=300&width=400",
-      "/placeholder.svg?height=300&width=400",
-      "/placeholder.svg?height=300&width=400",
-    ],
-    noticias: [
-      {
-        id: "noticia-1",
-        titulo: "Santander acogerá una etapa del Circuito Nacional de Fútbol Playa",
-        fecha: "15/07/2023",
-        resumen:
-          "La playa de El Sardinero será sede de una de las etapas del Circuito Nacional de Fútbol Playa durante el primer fin de semana de agosto.",
-      },
-      {
-        id: "noticia-2",
-        titulo: "Abierta la inscripción para el Torneo de Fútbol Playa de Laredo",
-        fecha: "01/06/2023",
-        resumen:
-          "Ya está abierto el plazo de inscripción para el tradicional Torneo de Fútbol Playa de Laredo que celebrará su XX edición este verano.",
-      },
-      {
-        id: "noticia-3",
-        titulo: "La selección cántabra de fútbol playa se prepara para el Campeonato de España",
-        fecha: "15/05/2023",
-        resumen:
-          "La selección cántabra de fútbol playa ha comenzado los entrenamientos de cara al próximo Campeonato de España que se celebrará en Cádiz.",
-      },
-    ],
-  },
+  }
 }
 
 export default function DeportePage() {
@@ -275,7 +203,7 @@ export default function DeportePage() {
             fill
             className="object-cover"
           />
-          
+
         </div>
       </div>
 

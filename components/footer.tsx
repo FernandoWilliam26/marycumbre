@@ -1,10 +1,10 @@
 import Link from "next/link"
-import { Instagram, Youtube, Mail, Phone} from "lucide-react"
+import { Instagram, Youtube, Mail, Phone } from "lucide-react"
 import { FaTiktok } from "react-icons/fa"
 
 export default function Footer() {
   return (
-    <footer className="border-t bg-gradient-to-r from-emerald-600 to-teal-500 text-white">
+    <footer className="border-t bg-[#049695] text-white">
       <div className="container py-10 md:py-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           {/* BLOQUE 1 */}

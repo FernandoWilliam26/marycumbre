@@ -35,7 +35,7 @@ export default function Home() {
     <div className="container mx-auto px-4 py-8">
       <section className="flex flex-col md:flex-row items-center gap-12 mb-16">
         <div className="md:w-1/2">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-emerald-700">Marycumbre</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-[#049695]">Marycumbre</h1>
           <p className="text-lg mb-6 text-gray-700">
             Sumérgete en la esencia de Cantabria a través de su tradición deportiva, un reflejo de la pasión, la fuerza y el arraigo de su gente. Desde los antiguos
             saltos pasiegos hasta las emocionantes regatas de traineras, cada disciplina cuenta una historia que sigue viva en el corazón de la región.
@@ -63,8 +63,8 @@ export default function Home() {
       </section>
 
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-center text-emerald-700">Nuestros Deportes</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <h2 className="text-3xl font-bold mb-8 text-center text-[#049695]">Nuestros Deportes</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
           {deportes.map((deporte) => (
             <Link href={`/deporte/${deporte.id}`} key={deporte.id} className="block">
               <Card className="overflow-hidden border-emerald-200 hover:shadow-xl transition-all duration-300 hover:scale-105 group cursor-pointer h-full">
@@ -86,7 +86,7 @@ export default function Home() {
       </section>
 
       <section className="bg-gradient-to-r from-emerald-100 to-teal-100 p-8 rounded-lg mb-16">
-        <h2 className="text-3xl font-bold mb-4 text-center text-emerald-700">Tradición y Cultura</h2>
+        <h2 className="text-3xl font-bold mb-4 text-center text-[#049695]">Tradición y Cultura</h2>
         <p className="text-lg text-center mb-6 text-gray-700">
           Los deportes tradicionales de Cantabria son mucho más que simples actividades físicas; son manifestaciones
           culturales que reflejan la historia, las costumbres y el carácter de sus gentes. A través de ellos, se
@@ -95,7 +95,7 @@ export default function Home() {
         <div className="flex justify-center">
           <Button
             asChild
-            className="bg-gradient-to-r from-emerald-600 to-teal-500 hover:from-emerald-700 hover:to-teal-600 transition-all duration-300"
+            className="bg-[#049695] hover:bg-[#0e6868] transition-all duration-300"
           >
             <Link href="/conocenos">Conoce Nuestro Equipo</Link>
           </Button>

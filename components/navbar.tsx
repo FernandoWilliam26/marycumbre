@@ -11,15 +11,13 @@ const deportes = [
   { id: "bolo-palma", nombre: "Bolo Palma" },
   { id: "ultimate", nombre: "Ultimate" },
   { id: "palas", nombre: "Palas" },
-  { id: "remo", nombre: "Remo" },
-  { id: "futbol-playa", nombre: "Fútbol Playa" },
 ]
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-gradient-to-r from-emerald-600 to-teal-500 text-white backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b bg-[#049695] text-white backdrop-blur ">
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center space-x-2">
           <Image
@@ -42,13 +40,13 @@ export default function Navbar() {
               <button className="flex items-center text-sm font-medium transition-colors hover:text-yellow-300 focus:outline-none">
                 Deportes <ChevronDown className="ml-1 h-4 w-4" />
               </button>
-              <div className="absolute left-0 mt-2 w-48 rounded-md bg-gradient-to-r from-emerald-600 to-teal-500 text-white opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-300 z-50 shadow-lg">
+              <div className="absolute left-0 mt-2 w-48 rounded-md bg-[#049695] text-white opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-300 z-50 shadow-lg">
                 <div className="py-1">
                   {deportes.map((deporte) => (
                     <Link
                       key={deporte.id}
                       href={`/deporte/${deporte.id}`}
-                      className="block px-4 py-2 text-sm text-white  hover:text-emerald-200"
+                      className="block px-4 py-2 text-sm text-white  hover:text-yellow-300"
                     >
                       {deporte.nombre}
                     </Link>
