@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import DiskWithImage from "@/components/DiskImage3D"
 import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
 const deportes = [
@@ -46,18 +47,7 @@ export default function Home() {
           </p>
         </div>
         <div className="md:w-1/2 mt-6 md:mt-0 flex justify-center md:justify-end">
-          <div className="w-full max-w-[450px]">
-            <Image
-              src="/imagenes/logo/marycumbre.png?height=500&width=500"
-              alt="Paisaje de Cantabria"
-              width={500}
-              height={500}
-              className="w-full h-auto"
-              style={{
-                filter: "drop-shadow(0 8px 32px rgba(16, 185, 129, 0.35))"
-              }}
-            />
-          </div>
+          <DiskWithImage imageUrl="/imagenes/logo/marycumbre.png" />
         </div>
       </section>
 
