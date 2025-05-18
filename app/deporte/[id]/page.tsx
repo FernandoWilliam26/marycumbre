@@ -110,7 +110,20 @@ const deportes = {
       "/imagenes/bolos/Fotos/JPG/IMG_6697.jpg?height=300&width=400",
     ],
     imagenesPortada: [
-      "/placeholder.svg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6564.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6565.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6595.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6597.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6599.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6602.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6603.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6604.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6605.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6653.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6656.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6667.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6668.jpg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6675.jpg?height=300&width=400",
       "/imagenes/bolos/Fotos/JPG/IMG_6697.jpg?height=300&width=400",
     ],
     noticias: [
@@ -123,6 +136,7 @@ const deportes = {
       },
     ],
     enlacesTexto: {
+    "Víctor González": "/perfiles/victor-gonzalez",
     "Federación Bolística Montañesa": "https://maderadeser.com/informacion/publicaciones/publicacion/federacion-bolistica-montanesa/",
     "Complejo Municipal Ruth Beitia": "https://www.santanderdeportes.com/static.php?c=8"
     }
@@ -225,15 +239,21 @@ export default function DeportePage() {
     let textoModificado = texto
 
     Object.entries(mapaEnlaces).forEach(([palabra, url]) => {
-      const regex = new RegExp(`\\b${palabra}\\b`, "g")
-      textoModificado = textoModificado.replace(
-        regex,
-        `<a href="${url}" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline hover:text-blue-800">${palabra}</a>`
-      )
+      const isInternal = url.startsWith("/")
+      const enlace = isInternal
+        ? `<a href="${url}" class="text-blue-600 underline hover:text-blue-800">${palabra}</a>`
+        : `<a href="${url}" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline hover:text-blue-800">${palabra}</a>`
+
+      const palabraEscapada = palabra.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&')
+      const regex = new RegExp(`\\b${palabraEscapada}\\b`, "g")
+
+      textoModificado = textoModificado.replace(regex, enlace)
     })
 
     return textoModificado
   }
+
+
 
 
   useEffect(() => {
