@@ -123,8 +123,8 @@ export default function NoticiaPage() {
   if (!noticia) {
     return (
       <div className="container mx-auto px-4 py-16 text-center bg-emerald-50">
-        <h1 className="text-2xl font-bold mb-4 text-emerald-700">Noticia no encontrada</h1>
-        <Button onClick={() => router.back()} className="bg-emerald-600 hover:bg-emerald-700">
+        <h1 className="text-2xl font-bold mb-4 text-[#049695]">Noticia no encontrada</h1>
+        <Button onClick={() => router.back()} className="bg-[#049695] hover:bg-[##0e6868]">
           <ArrowLeft className="mr-2 h-4 w-4" /> Volver
         </Button>
       </div>
@@ -133,13 +133,13 @@ export default function NoticiaPage() {
 
   return (
     <div className="container mx-auto px-4 py-8 bg-emerald-50">
-      <Button onClick={() => router.back()} className="mb-6 bg-emerald-600 hover:bg-emerald-700">
+      <Button onClick={() => router.back()} className="mb-6 bg-[#049695] hover:bg-[##0e6868]">
         <ArrowLeft className="mr-2 h-4 w-4" /> Volver
       </Button>
 
       <article className="max-w-4xl mx-auto text-center">
         {/* TÍTULO */}
-        <h1 className="text-4xl md:text-5xl font-bold mb-4 text-emerald-700">{noticia.titulo}</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-4 text-[#049695]">{noticia.titulo}</h1>
 
         {/* RESUMEN */}
         {noticia.resumen && (
@@ -147,7 +147,7 @@ export default function NoticiaPage() {
         )}
 
         {/* FECHA */}
-        <p className="text-sm text-teal-600 mb-8">{noticia.fecha}</p>
+        <p className="text-sm text-[#049695] mb-8">{noticia.fecha}</p>
 
         {/* IMAGEN DE PORTADA */}
         {noticia.portada && (
@@ -173,7 +173,7 @@ export default function NoticiaPage() {
         {/* CARRUSEL DE IMÁGENES */}
         {noticia.imagenes.length > 1 && (
           <div className="mt-12">
-            <h2 className="text-2xl font-bold mb-6 text-emerald-700">Más imágenes</h2>
+            <h2 className="text-2xl font-bold mb-6 text-[#049695]">Más imágenes</h2>
             <div className="flex overflow-x-auto space-x-6 pb-4 snap-x snap-mandatory">
               {noticia.imagenes.slice(1).map((imagen, index) => (
                 <div
@@ -208,7 +208,7 @@ export default function NoticiaPage() {
                   setSelectedImage(null)
                 }}
               >
-                <X className="h-6 w-6 text-emerald-700" />
+                <X className="h-6 w-6 text-[#049695]" />
               </button>
               <div className="bg-white p-2 rounded-lg">
                 <Image

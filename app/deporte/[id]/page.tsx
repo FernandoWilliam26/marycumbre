@@ -228,7 +228,7 @@ export default function DeportePage() {
 
   return (
     <div className="container mx-auto px-4 py-8 bg-emerald-50">
-      <h1 className="text-4xl font-bold mb-6 text-center text-emerald-700">{deporte.nombre}</h1>
+      <h1 className="text-4xl font-bold mb-6 text-center text-[#049695]">{deporte.nombre}</h1>
 
       <div className="mb-12">
         <div className="relative w-full h-[400px] mb-8 rounded-lg overflow-hidden shadow-lg">
@@ -245,21 +245,17 @@ export default function DeportePage() {
       </div>
 
       <section className="mb-12 bg-gradient-to-r from-emerald-100 to-teal-100 p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
-        <h2 className="text-2xl font-bold mb-4 text-emerald-700">Historia</h2>
-        <div className="text-lg text-gray-700 leading-relaxed space-y-4">
-          {deporte.historia.split('\n\n').map((parrafo, index) => (
-            <p key={index}>{parrafo}</p>
-          ))}
-        </div>
+        <h2 className="text-2xl font-bold mb-4 text-[#049695]">Historia</h2>
+        <p className="text-lg text-gray-700 leading-relaxed">{deporte.historia}</p>
       </section>
 
       <section className="mb-12 bg-gradient-to-r from-teal-100 to-emerald-100 p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
-        <h2 className="text-2xl font-bold mb-4 text-emerald-700">Reglas Básicas</h2>
+        <h2 className="text-2xl font-bold mb-4 text-[#049695]">Reglas Básicas</h2>
         <p className="text-lg text-gray-700 leading-relaxed">{deporte.reglas}</p>
       </section>
 
       <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-6 text-emerald-700">Galería de Imágenes</h2>
+        <h2 className="text-2xl font-bold mb-6 text-[#049695]">Galería de Imágenes</h2>
         <div className="flex overflow-x-auto space-x-6 pb-4 snap-x snap-mandatory">
           {deporte.imagenes.map((imagen, index) => (
             <div
@@ -280,7 +276,7 @@ export default function DeportePage() {
       </section>
 
       <section className="mb-8 overflow-hidden">
-        <h2 className="text-2xl font-bold mb-4 text-emerald-700">Últimas Noticias</h2>
+        <h2 className="text-2xl font-bold mb-4 text-[#049695]">Últimas Noticias</h2>
         <Separator className="mb-6 bg-emerald-200" />
 
         <div className="flex space-x-6 pb-4 overflow-x-auto snap-x">
@@ -292,7 +288,7 @@ export default function DeportePage() {
             >
               <Card className="h-full border-emerald-200 hover:shadow-xl transition-all duration-300 hover:scale-105 hover:border-teal-300">
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-bold mb-2 text-emerald-700">{noticia.titulo}</h3>
+                  <h3 className="text-xl font-bold mb-2 text-[#049695]">{noticia.titulo}</h3>
                   <p className="text-sm text-teal-500 mb-2">{noticia.fecha}</p>
                   <p className="text-gray-700">{noticia.resumen}</p>
                 </CardContent>
@@ -316,7 +312,7 @@ export default function DeportePage() {
                 setSelectedImage(null)
               }}
             >
-              <X className="h-6 w-6 text-emerald-700" />
+              <X className="h-6 w-6 text-[#049695]" />
             </button>
             <div className="bg-white p-2 rounded-lg">
               <Image
