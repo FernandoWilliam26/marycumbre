@@ -7,16 +7,21 @@ import { useState } from "react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Separator } from "@/components/ui/separator"
 import { X } from "lucide-react"
+import { useEffect } from "react"
 
 const deportes = {
   "salto-pasiego": {
     nombre: "Salto Pasiego",
-    portada: "/placeholder.svg?height=600&width=1200",
     historia:
       "El salto pasiego es una técnica tradicional de los habitantes de los Valles Pasiegos en Cantabria. Utilizando un palo largo o 'cuatropea' como pértiga, los pasiegos saltaban sobre los arroyos, muros de piedra y terrenos accidentados mientras se desplazaban con sus ganados por las laderas montañosas. Esta práctica surgió como una necesidad para moverse por el terreno escarpado de la región, y con el tiempo se convirtió en una habilidad distintiva y en una competición deportiva.",
     reglas:
       "En la competición moderna de salto pasiego, los participantes utilizan una pértiga de madera de avellano de unos 3 metros de longitud. El objetivo es superar obstáculos o distancias horizontales, apoyando la pértiga en el suelo y elevándose para salvar el obstáculo. Se valora tanto la distancia alcanzada como la técnica y el estilo del saltador. Las competiciones suelen organizarse en diferentes categorías según la edad y experiencia de los participantes.",
     imagenes: [
+      "/placeholder.svg?height=300&width=400",
+      "/placeholder.svg?height=300&width=400",
+      "/placeholder.svg?height=300&width=400",
+    ],
+    imagenesPortada: [
       "/placeholder.svg?height=300&width=400",
       "/placeholder.svg?height=300&width=400",
       "/placeholder.svg?height=300&width=400",
@@ -47,9 +52,15 @@ const deportes = {
   },
   "bolo-palma": {
     nombre: "Bolo Palma",
-    portada: "/imagenes/bolos/Fotos/JPG/IMG_6596.jpg?height=600&width=1200",
     historia:
-      "El bolo palma es una modalidad de los bolos tradicional cántabra, este deporte se practica en todas partes de España dónde se encuentran distintas peñas balísticas fundadas por gente de la Tierruca que está viviendo fuera, sobretodo en Madrid, País Vasco, Cataluña , Valencia y Castilla y León aunque también hay algunas peñas pequeñas en Mallorca o Murcia.En cuanto a los orígenes la primera referencia que hay sobre esta modalidad es de 1627 cuando el alcalde de Santander prohibió su práctica en la calle, pero fue a finales del Siglo XIX cuando se empezaron a mover los principios para la formalización de un reglamento conjunto para toda la región. El 14 de septiembre de 1914 en la localidad de Torrelavega nació la Federación Bolística Montañesa pero no duraría mucho ya que pasado el año hubo conflictos entre santanderinos y torrelaveguenses. 1941 por fin se creó la definitiva Real Federación Española con D.Antonio Gorordo como presidente. La primera sede fue en el Café Boulevard de Santander. Actualmente la sede se encuentra en el Complejo Municipal Ruth Beitia de La Albericia.A partir de los años 50 se instauró el plano competitivo, el primer Campeonato de España. En ese campeonato se forjaron leyendas como Pedro Lanza, Antonio Saiz “El Bolo” u Óscar González, unos de los mejores de la historia.Víctor González es el mejor jugador del momento y una vez que se retire también entrará en este olimpo, aunque está claro que él ya es uno de los jugadores más importantes en este deporte.Otro de los hitos más importantes en la historia de este deporte fue la construcción de boleras cubiertas que empezaron a inaugurarse a partir del año 1980. Esto fue un gran paso para poder continuar con la actividad durante todo el año a pesar de las circunstancias meteorológicas.En los tiempos más recientes cabe  destacar la declaración de Bolo Palma como Bien de Interés Cultural Inmaterial de Cantabria en 2015, un reconocimiento de valor histórico, social y cultural.En la actualidad el deporte está en horas bajas respecto a la popularidad del mismo, un gran problema es que la media de edad de los espectadores es elevada y no está llegando a enganchar a las nuevas generaciones. Esto hace que el deporte empiece a estar en peligro de extinción. Desde los estamentos se está buscando dar a conocer el deporte con distintas medidas como charlas en colegios, excursiones a boleras o la inclusión del deporte en la materia de Educación Física en colegios e institutos.",
+      "El bolo palma es una modalidad de los bolos tradicional cántabra, este deporte se practica en todas partes de España dónde se encuentran distintas peñas balísticas fundadas por gente de la Tierruca que está viviendo fuera, sobretodo en Madrid, País Vasco, Cataluña , Valencia y Castilla y León aunque también hay algunas peñas pequeñas en Mallorca o Murcia.\n\n" +
+      "En cuanto a los orígenes la primera referencia que hay sobre esta modalidad es de 1627 cuando el alcalde de Santander prohibió su práctica en la calle, pero fue a finales del Siglo XIX cuando se empezaron a mover los principios para la formalización de un reglamento conjunto para toda la región. El 14 de septiembre de 1914 en la localidad de Torrelavega nació la Federación Bolística Montañesa pero no duraría mucho ya que pasado el año hubo conflictos entre santanderinos y torrelaveguenses.\n\n" +
+      "En 1941 por fin se creó la definitiva Real Federación Española con D.Antonio Gorordo como presidente. La primera sede fue en el Café Boulevard de Santander. Actualmente la sede se encuentra en el Complejo Municipal Ruth Beitia de La Albericia.\n\n" + 
+      "A partir de los años 50 se instauró el plano competitivo, el primer Campeonato de España. En ese campeonato se forjaron leyendas como Pedro Lanza, Antonio Saiz “El Bolo” u Óscar González, unos de los mejores de la historia. Víctor González es el mejor jugador del momento y una vez que se retire también entrará en este olimpo, aunque está claro que él ya es uno de los jugadores más importantes en este deporte.\n\n" +
+      "Otro de los hitos más importantes en la historia de este deporte fue la construcción de boleras cubiertas que empezaron a inaugurarse a partir del año 1980. Esto fue un gran paso para poder continuar con la actividad durante todo el año a pesar de las circunstancias meteorológicas.\n\n" +
+      "En los tiempos más recientes cabe destacar la declaración de Bolo Palma como Bien de Interés Cultural Inmaterial de Cantabria en 2015, un reconocimiento de valor histórico, social y cultural.\n\n" +
+      "En la actualidad el deporte está en horas bajas respecto a la popularidad del mismo, un gran problema es que la media de edad de los espectadores es elevada y no está llegando a enganchar a las nuevas generaciones. Esto hace que el deporte empiece a estar en peligro de extinción. Desde los estamentos se está buscando dar a conocer el deporte con distintas medidas como charlas en colegios, excursiones a boleras o la inclusión del deporte en la materia de Educación Física en colegios e institutos.",
+
     reglas:
       "El juego consiste en lanzar bolas (normalmente de madera) desde una distancia determinada para derribar el mayor número posible de bolos (piezas cilíndricas de madera). La bolera tradicional tiene forma rectangular y cuenta con 9 bolos dispuestos en tres filas, más un décimo bolo llamado 'emboque'. Los jugadores realizan varios lanzamientos o 'tiradas' desde diferentes posiciones. La puntuación depende del número de bolos derribados y de si se consigue el 'emboque', que otorga puntos adicionales.",
     imagenes: [
@@ -83,6 +94,10 @@ const deportes = {
       "/imagenes/bolos/Fotos/JPG/IMG_6697.jpg?height=300&width=400",
 
     ],
+    imagenesPortada: [
+      "/placeholder.svg?height=300&width=400",
+      "/imagenes/bolos/Fotos/JPG/IMG_6697.jpg?height=300&width=400",
+    ],
     noticias: [
       {
         id: "noticia-1",
@@ -109,12 +124,16 @@ const deportes = {
   },
   ultimate: {
     nombre: "Ultimate",
-    portada: "/placeholder.svg?height=600&width=1200",
     historia:
       "Aunque el Ultimate no es un deporte tradicional de Cantabria, ha ganado popularidad en la región en las últimas décadas. Este deporte fue inventado en Estados Unidos en la década de 1960 y llegó a España en los años 80. En Cantabria, comenzó a practicarse en 2005. Con el tiempo, se han formado clubes locales y se organizan torneos regulares, especialmente en la modalidad de playa, aprovechando el litoral cántabro. Actualmente el único equipo en activo es Corocotta Ultimate Cantabria.",
     reglas:
       "El Ultimate se juega con un disco volador (frisbee) en un campo rectangular con zonas de gol en ambos extremos. Los equipos, de 5 jugadores, intentan avanzar el disco mediante pases hasta completar uno en la zona de gol contraria. El jugador con el disco no puede correr y tiene un tiempo limitado para pasarlo. Si el disco cae al suelo, toca fuera del campo o es interceptado, la posesión pasa al equipo contrario. Una característica distintiva es que se juega sin árbitros, basándose en el 'espíritu de juego' y la deportividad de los participantes.",
     imagenes: [
+      "/placeholder.svg?height=300&width=400",
+      "/placeholder.svg?height=300&width=400",
+      "/placeholder.svg?height=300&width=400",
+    ],
+    imagenesPortada: [
       "/placeholder.svg?height=300&width=400",
       "/placeholder.svg?height=300&width=400",
       "/placeholder.svg?height=300&width=400",
@@ -138,12 +157,16 @@ const deportes = {
   },
   palas: {
     nombre: "Palas",
-    portada: "/placeholder.svg?height=600&width=1200",
     historia:
       "El juego de palas es una actividad recreativa muy arraigada en las playas del norte de España, incluidas las de Cantabria. Aunque no tiene un origen específicamente cántabro, forma parte de la cultura playera de la región desde hace generaciones. Las palas, en su formato actual con raquetas de madera, se popularizaron a mediados del siglo XX como una actividad de ocio veraniega. En Cantabria, es habitual ver a familias y grupos de amigos jugando a palas en playas como El Sardinero, Laredo o Castro Urdiales durante los meses de verano.",
     reglas:
       "El juego de palas consiste en golpear una pelota (generalmente de goma o tenis) con raquetas de madera, intentando mantenerla en el aire el mayor tiempo posible. No existe un campo delimitado oficial ni un sistema de puntuación estandarizado, ya que principalmente es una actividad recreativa. Sin embargo, en algunos torneos informales que se organizan en las playas, se establecen reglas específicas como áreas de juego, número de toques permitidos o sistemas de puntuación similares a los del tenis o voleibol.",
     imagenes: [
+      "/placeholder.svg?height=300&width=400",
+      "/placeholder.svg?height=300&width=400",
+      "/placeholder.svg?height=300&width=400",
+    ],
+    imagenesPortada: [
       "/placeholder.svg?height=300&width=400",
       "/placeholder.svg?height=300&width=400",
       "/placeholder.svg?height=300&width=400",
@@ -186,6 +209,18 @@ export default function DeportePage() {
   const id = params.id as string
   const deporte = deportes[id as keyof typeof deportes]
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
+  const [currentSlide, setCurrentSlide] = useState(0)
+
+  useEffect(() => {
+    if (!deporte || !deporte.imagenesPortada || deporte.imagenesPortada.length === 0) return
+
+    const interval = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % deporte.imagenesPortada.length)
+    }, 4000)
+
+    return () => clearInterval(interval)
+  }, [deporte])
+
 
   if (!deporte) {
     return <div className="container mx-auto px-4 py-16 text-center">Deporte no encontrado</div>
@@ -197,19 +232,25 @@ export default function DeportePage() {
 
       <div className="mb-12">
         <div className="relative w-full h-[400px] mb-8 rounded-lg overflow-hidden shadow-lg">
-          <Image
-            src={deporte.portada || "/placeholder.svg?height=600&width=1200"}
-            alt={deporte.nombre}
-            fill
-            className="object-cover"
-          />
-
+          {deporte.imagenesPortada.length > 0 && (
+            <Image
+              src={deporte.imagenesPortada[currentSlide]}
+              alt={`${deporte.nombre} portada ${currentSlide + 1}`}
+              fill
+              className="object-cover transition-opacity duration-1000"
+              key={currentSlide}
+            />
+          )}
         </div>
       </div>
 
       <section className="mb-12 bg-gradient-to-r from-emerald-100 to-teal-100 p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
         <h2 className="text-2xl font-bold mb-4 text-emerald-700">Historia</h2>
-        <p className="text-lg text-gray-700 leading-relaxed">{deporte.historia}</p>
+        <div className="text-lg text-gray-700 leading-relaxed space-y-4">
+          {deporte.historia.split('\n\n').map((parrafo, index) => (
+            <p key={index}>{parrafo}</p>
+          ))}
+        </div>
       </section>
 
       <section className="mb-12 bg-gradient-to-r from-teal-100 to-emerald-100 p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
