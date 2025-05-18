@@ -49,6 +49,9 @@ const deportes = {
           "La Federación Cántabra ha anunciado la creación de nuevas categorías juveniles para fomentar este deporte entre los más jóvenes.",
       },
     ],
+    enlacesTexto: {
+    "":""
+    }
   },
   "bolo-palma": {
     nombre: "Bolo Palma",
@@ -62,7 +65,20 @@ const deportes = {
       "En la actualidad el deporte está en horas bajas respecto a la popularidad del mismo, un gran problema es que la media de edad de los espectadores es elevada y no está llegando a enganchar a las nuevas generaciones. Esto hace que el deporte empiece a estar en peligro de extinción. Desde los estamentos se está buscando dar a conocer el deporte con distintas medidas como charlas en colegios, excursiones a boleras o la inclusión del deporte en la materia de Educación Física en colegios e institutos.",
 
     reglas:
-      "El juego consiste en lanzar bolas (normalmente de madera) desde una distancia determinada para derribar el mayor número posible de bolos (piezas cilíndricas de madera). La bolera tradicional tiene forma rectangular y cuenta con 9 bolos dispuestos en tres filas, más un décimo bolo llamado 'emboque'. Los jugadores realizan varios lanzamientos o 'tiradas' desde diferentes posiciones. La puntuación depende del número de bolos derribados y de si se consigue el 'emboque', que otorga puntos adicionales.",
+      "1.⁠ ⁠Dos equipos con 4 jugadores cada uno.\n\n" +
+      "- Fase 1 (Tiro): Cada jugador lanza dos bolas desde el fondo de la bolera.\n\n" +
+      "- Fase 2 (Birle): Una vez se lanzan las 8 bolas los 4 jugadores las vuelven a tirar (birlar) desde el punto en el que se haya quedado la bola.\n\n" +
+      "2.⁠ ⁠El partido se divide en 6 mangas que se denominan como “chicos”. ¿Cómo se consiguen los “chicos”? Cada “chico” se puede resolver de dos maneras:\n\n" +
+      "- Si en la primera ronda alguno de los equipos llega a 40 obliga al otro a hacer más bolos.\n\n" +
+      "- Si en la primera ronda ninguno llega a los 40 bolos se hace una segunda tanda y al finalizar se suman los bolos tirados en ambas y gana el que más haya tirado.Si empatasen se haría otra ronda. EJEMPLO:\n\n" +
+      "- El equipo 1 tira 35 bolos en la primera ronda y el equipo 2 hace 37. En la segunda ronda el equipo 1 tira 38 (35+38=73) entonces el equipo 2 para ganar necesitaría hacer 36 bolos (37+37=74).\n\n" +
+      "3.⁠ ⁠¿Cuál es el valor de cada bolo?\n\n" +
+      "- Cada bolo cuenta como 1 EXCEPTO si SOLO se derriba el bolo central que el valor de este sería 2. Ejemplo: Cuarta publicación\n\n" +
+      "- En la fase 1 (Tiro) los jugadores pueden sumar bolos adicionales (Pueden ser 10, 20 o más) si con la bola derriba un bolo y luego la bola va por dentro del emboque o se derriba. El Emboque es un bolo pequeño que se coloca a un costado del cajón.\n\n" +
+      "- Si no se derriba ningún bolo se suman 0 puntos pero la bola sigue siendo válida para luego jugar con ella en el “birle”. Esto se denomina en forma coloquial como “coneja”.\n\n" +
+      "4.⁠ ⁠¿Todas las bolas son válidas? NO:\n\n" +
+      "- Bola NULA: cuando en la fase de “tiro” la bola no bota entre la raya marcada por el árbitro y el primer bolo la bola queda inhabilitada.\n\n" +
+      "- Bola QUEDA: si la bola no pasa la raya posterior al cajón de bolos la bola también queda inhabilitada.",
     imagenes: [
       "/imagenes/bolos/Fotos/JPG/IMG_6564.jpg?height=300&width=400",
       "/imagenes/bolos/Fotos/JPG/IMG_6565.jpg?height=300&width=400",
@@ -92,7 +108,6 @@ const deportes = {
       "/imagenes/bolos/Fotos/JPG/IMG_6680.jpg?height=300&width=400",
       "/imagenes/bolos/Fotos/JPG/IMG_6695.jpg?height=300&width=400",
       "/imagenes/bolos/Fotos/JPG/IMG_6697.jpg?height=300&width=400",
-
     ],
     imagenesPortada: [
       "/placeholder.svg?height=300&width=400",
@@ -106,21 +121,11 @@ const deportes = {
         resumen:
           "El encuentro entre Peñacastillo y Borbolla concluyó con un 3-3 que no deja satisfecho a ninguno.",
       },
-      {
-        id: "noticia-2",
-        titulo: "Inauguración de la nueva bolera municipal de Santander",
-        fecha: "05/06/2023",
-        resumen:
-          "El Ayuntamiento de Santander ha inaugurado una nueva bolera municipal que cumple con todos los estándares de competición.",
-      },
-      {
-        id: "noticia-3",
-        titulo: "Torneo Internacional de Bolo Palma en Santander",
-        fecha: "15/05/2023",
-        resumen:
-          "Santander acogerá el próximo mes el Torneo Internacional de Bolo Palma con participantes de varios países.",
-      },
     ],
+    enlacesTexto: {
+    "Federación Bolística Montañesa": "https://maderadeser.com/informacion/publicaciones/publicacion/federacion-bolistica-montanesa/",
+    "Complejo Municipal Ruth Beitia": "https://www.santanderdeportes.com/static.php?c=8"
+    }
   },
   ultimate: {
     nombre: "Ultimate",
@@ -154,6 +159,9 @@ const deportes = {
           "Por primera vez en su historia, el club Ultimate Cantabria ha conseguido clasificarse para el Campeonato Nacional que se celebrará en Valencia.",
       },
     ],
+    enlacesTexto: {
+    "":""
+    }
   },
   palas: {
     nombre: "Palas",
@@ -201,6 +209,9 @@ const deportes = {
           "Una empresa cántabra ha lanzado una línea de palas fabricadas con materiales sostenibles y respetuosos con el medio ambiente.",
       },
     ],
+    enlacesTexto: {
+    "":""
+    }
   }
 }
 
@@ -210,6 +221,20 @@ export default function DeportePage() {
   const deporte = deportes[id as keyof typeof deportes]
   const [selectedImage, setSelectedImage] = useState<string | null>(null)
   const [currentSlide, setCurrentSlide] = useState(0)
+  const insertarEnlaces = (texto: string, mapaEnlaces: Record<string, string> = {}): string => {
+    let textoModificado = texto
+
+    Object.entries(mapaEnlaces).forEach(([palabra, url]) => {
+      const regex = new RegExp(`\\b${palabra}\\b`, "g")
+      textoModificado = textoModificado.replace(
+        regex,
+        `<a href="${url}" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline hover:text-blue-800">${palabra}</a>`
+      )
+    })
+
+    return textoModificado
+  }
+
 
   useEffect(() => {
     if (!deporte || !deporte.imagenesPortada || deporte.imagenesPortada.length === 0) return
@@ -246,12 +271,26 @@ export default function DeportePage() {
 
       <section className="mb-12 bg-gradient-to-r from-emerald-100 to-teal-100 p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
         <h2 className="text-2xl font-bold mb-4 text-[#049695]">Historia</h2>
-        <p className="text-lg text-gray-700 leading-relaxed">{deporte.historia}</p>
+        <div className="text-lg text-gray-700 leading-relaxed space-y-4">
+          {deporte.historia.split('\n\n').map((parrafo, index) => (
+            <p
+              key={index}
+              className="text-gray-700"
+              dangerouslySetInnerHTML={{
+                __html: insertarEnlaces(parrafo, deporte.enlacesTexto || {})
+              }}
+            />
+          ))}
+        </div>
       </section>
 
       <section className="mb-12 bg-gradient-to-r from-teal-100 to-emerald-100 p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
         <h2 className="text-2xl font-bold mb-4 text-[#049695]">Reglas Básicas</h2>
-        <p className="text-lg text-gray-700 leading-relaxed">{deporte.reglas}</p>
+        <div className="text-lg text-gray-700 leading-relaxed space-y-4">
+          {deporte.reglas.split('\n\n').map((parrafo, index) => (
+            <p key={index}>{parrafo}</p>
+          ))}
+        </div>
       </section>
 
       <section className="mb-12">
@@ -284,7 +323,9 @@ export default function DeportePage() {
             <Link
               href={`/noticias/${id}/${noticia.id}`}
               key={index}
-              className={`snap-start flex-shrink-0 ${index < 2 ? "w-full md:w-[calc(50%-0.75rem)]" : "w-3/4 md:w-[calc(25%-0.75rem)]"}`}
+              className={`snap-start flex-shrink-0 ${
+                index < 2 ? "w-full md:w-[calc(50%-0.75rem)]" : "w-3/4 md:w-[calc(25%-0.75rem)]"
+              }`}
             >
               <Card className="h-full border-emerald-200 hover:shadow-xl transition-all duration-300 hover:scale-105 hover:border-teal-300">
                 <CardContent className="p-6">

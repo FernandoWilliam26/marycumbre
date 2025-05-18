@@ -11,10 +11,10 @@ const equipo = [
   },
   {
     nombre: "Antonio Sisniega",
-    rol: "Periodista",
+    rol: "Estudiante de Periodismo en Universidad Europea del Atlántico",
     descripcion: "",
-    imagen: "/placeholder.svg?height=300&width=300",
-    linkedin: "https://linkedin.com/in/antonio-sisniega",
+    imagen: "/imagenes/conocenos/Antonio.jpeg?height=300&width=300",
+    linkedin: "https://www.linkedin.com/in/antonio-sisniega-g%C3%B3mez-ab3268353/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
   {
     nombre: "Javier Montes",
@@ -46,10 +46,10 @@ const equipo = [
   },
   {
     nombre: "Eduardo Lostal",
-    rol: "Informático",
+    rol: "Estudiante del grado de Ingeniería Informática || Becario en NTT Data",
     descripcion: "",
-    imagen: "/placeholder.svg?height=300&width=300",
-    linkedin: "https://linkedin.com/in/eduardo-lostal",
+    imagen: "/imagenes/conocenos/Eduardo.jpeg?height=300&width=300",
+    linkedin: "https://www.linkedin.com/in/eduardo-lostal-le-barbier-032261356/",
   },
   {
     nombre: "Marcos de Blas",
