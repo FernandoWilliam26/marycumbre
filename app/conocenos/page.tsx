@@ -38,10 +38,10 @@ const equipo = [
     linkedin: "https://www.linkedin.com/in/borja-antonio-mart%C3%ADnez-fern%C3%A1ndez-36109220a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
-    nombre: "Fernando William Calvo",
-    rol: "Estudiante Grado Ingeniería Informática",
+    nombre: "Fernando William Calvo Méndez",
+    rol: "Estudiante de Grado en Ingeniería Informática ||",
     descripcion: "",
-    imagen: "/placeholder.svg?height=300&width=300",
+    imagen: "/imagenes/conocenos/Fernando.jpg?height=300&width=300",
     linkedin: "https://www.linkedin.com/in/fernando-william-calvo-m%C3%A9ndez-95606a168?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
   {
