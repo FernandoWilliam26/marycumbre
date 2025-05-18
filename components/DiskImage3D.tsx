@@ -48,11 +48,11 @@ const DiskWithImage = ({ imageUrl }: { imageUrl: string }) => {
             camera={{ position: [0, 0, 3], fov: 50 }}
         >
             <ambientLight intensity={0.6} />
-            <directionalLight position={[2, 2, 2]} />
+            {/* Luz direccional apuntando directamente hacia el disco */}
+            <directionalLight position={[0, 0, 3]} target-position={[0, 0, 0]} intensity={1} />
             <Suspense fallback={null}>
                 <Disk imageUrl={imageUrl} />
             </Suspense>
-            {/* OrbitControls sin drag ni pan */}
             <OrbitControls
                 enableZoom={false}
                 enableRotate={false}
