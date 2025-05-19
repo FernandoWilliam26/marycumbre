@@ -161,9 +161,7 @@ const deportes = {
   "6.⁠ ⁠Contacto físico:\n\n" +
   "- Está prohibido. Cualquier contacto se considera falta. El Ultimate es un deporte sin contacto.\n\n" +
   "7.⁠ ⁠Espíritu del juego:\n\n" +
-  "- No hay árbitros oficiales. Los jugadores hacen cumplir las reglas con honestidad, fomentando el respeto mutuo.\n\n" +
-  "8.⁠ ⁠Dimensiones del campo:\n\n" +
-  "- El campo mide aproximadamente 100 metros de largo por 37 metros de ancho, con zonas de anotación de 18 metros en cada extremo.\n",
+  "- No hay árbitros oficiales. Los jugadores hacen cumplir las reglas con honestidad, fomentando el respeto mutuo.\n\n",
     imagenes: [
       "/placeholder.svg?height=300&width=400",
       "/placeholder.svg?height=300&width=400",
