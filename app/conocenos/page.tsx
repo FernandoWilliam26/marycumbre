@@ -39,7 +39,7 @@ const equipo = [
   },
   {
     nombre: "Fernando William Calvo Méndez",
-    rol: "Estudiante de Grado en Ingeniería Informática ||",
+    rol: "Estudiante de Grado en Ingeniería Informática",
     descripcion: "",
     imagen: "/imagenes/conocenos/Fernando.jpg?height=300&width=300",
     linkedin: "https://www.linkedin.com/in/fernando-william-calvo-m%C3%A9ndez-95606a168?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",

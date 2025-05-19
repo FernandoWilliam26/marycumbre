@@ -20,14 +20,14 @@ const deportes = [
   {
     id: "ultimate",
     nombre: "Ultimate",
-    descripcion: "Deporte de equipo jugado con un disco volador",
+    descripcion: "Deporte de equipo jugado con un frisbee",
     imagen: "/imagenes/ultimate/Fotos/IMG_6823.jpg?height=200&width=300",
   },
   {
     id: "palas",
     nombre: "Palas",
     descripcion: "Juego de playa tradicional con palas de madera",
-    imagen: "/placeholder.svg?height=200&width=300",
+    imagen: "/imagenes/palas/Fotos/Screenshot_20250518_183826_Gallery.jpg?height=300&width=400",
   }
 ]
 
