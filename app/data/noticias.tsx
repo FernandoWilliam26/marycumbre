@@ -11,7 +11,7 @@ const noticias: Record<string, Noticia> = {
     "noticia-1": {
         titulo: "Peñacastillo se queda a las puertas de la remontada",
         resumen: "El encuentro entre Peñacastillo y Borbolla concluyó con un 3-3 que no deja satisfecho a ninguno",
-        fecha: "15/07/2023",
+        fecha: "15/04/2025",
         portada: "/imagenes/bolos/Fotos/JPG/IMG_6660.jpg",
         contenido: `
         <p>Los locales se quedan con la miel en los labios tras rozar la victoria. El encuentro arrancó con un gran nivel por parte del equipo de Noja, que logró 
@@ -31,27 +31,56 @@ const noticias: Record<string, Noticia> = {
         y emocionante tarde bolística en el Mateo Grijuela.</p>
         `,
         imagenes: [
-        "/imagenes/bolos/Fotos/JPG/IMG_6653.jpg?height=300&width=400",
-        "/imagenes/bolos/Fotos/JPG/IMG_6654.jpg?height=300&width=400",
-        "/imagenes/bolos/Fotos/JPG/IMG_6655.jpg?height=300&width=400",
-        "/imagenes/bolos/Fotos/JPG/IMG_6656.jpg?height=300&width=400",
-        "/imagenes/bolos/Fotos/JPG/IMG_6657.jpg?height=300&width=400",
-        "/imagenes/bolos/Fotos/JPG/IMG_6658.jpg?height=300&width=400",
-        "/imagenes/bolos/Fotos/JPG/IMG_6659.jpg?height=300&width=400",
-        "/imagenes/bolos/Fotos/JPG/IMG_6667.jpg?height=300&width=400",
-        "/imagenes/bolos/Fotos/JPG/IMG_6668.jpg?height=300&width=400",
-        "/imagenes/bolos/Fotos/JPG/IMG_6674.jpg?height=300&width=400",
-        "/imagenes/bolos/Fotos/JPG/IMG_6675.jpg?height=300&width=400",
-        "/imagenes/bolos/Fotos/JPG/IMG_6676.jpg?height=300&width=400",
-        "/imagenes/bolos/Fotos/JPG/IMG_6677.jpg?height=300&width=400",
-        "/imagenes/bolos/Fotos/JPG/IMG_6678.jpg?height=300&width=400",
-        "/imagenes/bolos/Fotos/JPG/IMG_6679.jpg?height=300&width=400",
-        "/imagenes/bolos/Fotos/JPG/IMG_6680.jpg?height=300&width=400",
-        "/imagenes/bolos/Fotos/JPG/IMG_6685.jpg?height=300&width=400",
-        "/imagenes/bolos/Fotos/JPG/IMG_6686.jpg?height=300&width=400",
-        "/imagenes/bolos/Fotos/JPG/IMG_6691.jpg?height=300&width=400",
-        "/imagenes/bolos/Fotos/JPG/IMG_6695.jpg?height=300&width=400",
-        "/imagenes/bolos/Fotos/JPG/IMG_6697.jpg?height=300&width=400",
+            "/imagenes/bolos/Fotos/JPG/IMG_6653.jpg?height=300&width=400",
+            "/imagenes/bolos/Fotos/JPG/IMG_6654.jpg?height=300&width=400",
+            "/imagenes/bolos/Fotos/JPG/IMG_6655.jpg?height=300&width=400",
+            "/imagenes/bolos/Fotos/JPG/IMG_6656.jpg?height=300&width=400",
+            "/imagenes/bolos/Fotos/JPG/IMG_6657.jpg?height=300&width=400",
+            "/imagenes/bolos/Fotos/JPG/IMG_6658.jpg?height=300&width=400",
+            "/imagenes/bolos/Fotos/JPG/IMG_6659.jpg?height=300&width=400",
+            "/imagenes/bolos/Fotos/JPG/IMG_6667.jpg?height=300&width=400",
+            "/imagenes/bolos/Fotos/JPG/IMG_6668.jpg?height=300&width=400",
+            "/imagenes/bolos/Fotos/JPG/IMG_6674.jpg?height=300&width=400",
+            "/imagenes/bolos/Fotos/JPG/IMG_6675.jpg?height=300&width=400",
+            "/imagenes/bolos/Fotos/JPG/IMG_6676.jpg?height=300&width=400",
+            "/imagenes/bolos/Fotos/JPG/IMG_6677.jpg?height=300&width=400",
+            "/imagenes/bolos/Fotos/JPG/IMG_6678.jpg?height=300&width=400",
+            "/imagenes/bolos/Fotos/JPG/IMG_6679.jpg?height=300&width=400",
+            "/imagenes/bolos/Fotos/JPG/IMG_6680.jpg?height=300&width=400",
+            "/imagenes/bolos/Fotos/JPG/IMG_6685.jpg?height=300&width=400",
+            "/imagenes/bolos/Fotos/JPG/IMG_6686.jpg?height=300&width=400",
+            "/imagenes/bolos/Fotos/JPG/IMG_6691.jpg?height=300&width=400",
+            "/imagenes/bolos/Fotos/JPG/IMG_6695.jpg?height=300&width=400",
+            "/imagenes/bolos/Fotos/JPG/IMG_6697.jpg?height=300&width=400",
+        ],
+    },
+    "noticia-2": {
+        titulo: "Un salto en el tiempo en los Valles Pasiegos",
+        resumen: "Nos adentramos en los Valles Pasiegos para descubrir un deporte con alma",
+        fecha: "02/05/2025",
+        portada: "/imagenes/salto/Fotos/image2.jpg",
+        contenido: `
+        <p>Una tarde cualquiera, Santander quedaba atrás en el retrovisor, un grupo de jóvenes se dirigió hacia el interior verde y secreto de Cantabria. Su destino: los Valles Pasiegos. Su propósito: conocer un deporte que, hasta ese día, les resultaba completamente ajeno. No sabían aún que estaban a punto de descubrir no solo una actividad física, sino un fragmento vivo de la identidad de una tierra.</p><br/>
+        
+        <p>El punto de encuentro fue Selaya, un pueblo rodeado de montañas y prados. Allí les esperaba Borja, integrante del equipo Marycumbre y conocedor de la zona. No estaba solo. Junto a él, Adrián aguardaba en su coche, guió al grupo entre estrechas carreteras que se iban curvando a lo largo del valle. Siguiéndole, comenzaron a ascender hacia la zona de Pisueña. Al llegar a una cabaña de piedra, surgió entre las sombras de esta otro joven: Alejandro. Había interrumpido sus labores en la cabaña para unirse a la demostración. Justo enfrente había una gran explanada donde pensaron que podía ser buena idea practicar allí, un prado ligeramente húmedo tras las lluvias recientes, y que iba a ser escenario del Salto Pasiego. Alejandro y Adrián, con la mirada acostumbrada al monte, analizaron el terreno durante varios minutos. Comprobaron la firmeza del suelo, tantearon posibles puntos de salto, y advirtieron: estaba húmedo, no sería fácil clavar bien la vara, pero lo intentarían. Ambos se vistieron entonces con la indumentaria tradicional del Salto Pasiego: camisa de faena y pantalón de trabajo. A esto sumaron un elemento inesperado que sorprendió a los presentes: botas con tacos, similares a las que se usan en el fútbol o el rugby. No era por estética. Aquella elección respondía a la necesidad de no resbalar al aterrizar y de clavar bien el salto, una cuestión de precisión y seguridad.</p><br/>
+        
+        <p>Entonces comenzó la demostración. Adrián y Alejandro tomaron sus varas, largas y firmes, y empezaron a mostrar las distintas modalidades del Salto Pasiego, ese arte de impulsarse con un palo, volar unos metros y aterrizar más allá de zanjas, piedras o incluso ríos. Desde fuera, podía parecer un simple juego rural. Pero bastó con que algunos de los presentes intentaran imitar los saltos para entender que se trataba de un desafío técnico y físico que requería no solo fuerza, sino también equilibrio, cálculo y confianza. Durante más de una hora, el grupo se sumergió en esa tradición viva. Observaron. Preguntaron. Saltaron. Y luego, cuando el cuerpo ya había sentido la exigencia de aquel ejercicio antiguo, se sentaron con los dos jóvenes para conocer más.</p><br/>
+        
+        <p>Adrián y Alejandro explicaron que el Salto Pasiego no nació como deporte, sino como necesidad. “Surgió porque no había puentes. Era la forma de cruzar los ríos”, contaron. “Y como no había más entretenimiento, los chavales empezaron a practicarlo como un juego”. Así, lo que comenzó como una solución práctica se transformó, con el tiempo, en una actividad recreativa, y más tarde en un símbolo de identidad pasiega. En la conversación detallaron las distintas modalidades del salto, explicaron cómo debe sujetarse la vara, cómo se calcula el impulso, cómo se ejecuta el salto de forma correcta. También hablaron de su presente, el Salto Pasiego aún se practica en algunas fiestas de pueblos, a veces incluso con premios para los ganadores. Pero fuera de esas ocasiones, es una tradición que resiste en silencio, casi en secreto, como si se negara a morir.</p><br/>
+        
+        <p>El sol ya había comenzado a esconderse tras las montañas cuando recogieron todo y se despidieron. El viaje de regreso a Santander fue tranquilo, quizás más reflexivo. Había algo en el aire que ya no era igual. En el silencio del coche, surgió una conclusión compartida, no sólo habían conocido un deporte nuevo. Porque el Salto Pasiego no es solo un juego ni un pasatiempo. Es el eco de una época en la que los niños no tenían más que su campo y su pueblo, y en este entretenimiento tan reducido, el Salto Pasiego era todo lo que les quedaba.</p>
+        `,
+        imagenes: [
+            "/imagenes/salto/Fotos/image.png",
+            "/imagenes/salto/Fotos/image4.png",
+            "/imagenes/salto/Fotos/BorjafotoPasiego.jpg?height=200&width=300",
+            "/imagenes/salto/Fotos/image5.png",
+            "/imagenes/salto/Fotos/image6.png",
+            "/imagenes/salto/Fotos/image2.jpg",
+            "/imagenes/salto/Fotos/image3.png",
+            "/imagenes/salto/Fotos/image9.png",
+            "/imagenes/salto/Fotos/image7.png",
+            "/imagenes/salto/Fotos/image8.png",
         ],
     },
 }
