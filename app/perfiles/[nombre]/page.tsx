@@ -131,7 +131,7 @@ const perfiles = {
         del Atlántico con el ultimate frisbee, su verdadera pasión. Actualmente juega para el único
         equipo cántabro “Corocotta Ultimate”, con el que quedó en octava posición del
         campeonato español en la última temporada. También es internacional con la selección
-        española, con la que disputó el “WU24” en Logroño.
+        española, con la que va a disputar el mundial “WU24” en Logroño.
       </p>
 
       <p class="mb-4">
@@ -180,7 +180,7 @@ const perfiles = {
         Nos cuenta que hay chicas que bajan a entrenar algún día pero que son muy pocas las que tienen el compromiso necesario para formar parte del equipo, cree que esto es debido a que el Ultimate es un deporte muy físico. Aún así anima a todas las chicas de la ciudad a darle una oportunidad al deporte y así poder cumplir su objetivo de jugar torneos femeninos. 
       </p>
       <p class="mb-4">
-        Natalia desde pequeña estuvo involucrada en el deporte gracias a su tío que la enseñó a jugar. El equipo lo conoció gracias a una profesora del instituto que le informó sobre la existencia del equipo y desde hace 3 años que forma parte de él.
+        Natalia desde pequeña estuvo involucrada en el deporte gracias a su tío que la enseñó a jugar. El equipo lo conoció gracias a una profesora del instituto que le informó sobre la existencia del equipo y desde hace 3 años que forma parte de él. También forma parte de la selección española sub-24 mixta, con la que va a disputar el mundial "WU24" en Logroño.
       </p>
     `,
     imagen: "/imagenes/perfiles/Natalia.jpeg"
@@ -200,10 +200,10 @@ const perfiles = {
         Ante la ausencia de personas que practiquen este deporte él es uno de los jóvenes que lo promueven, le gustan más las modalidades de “salto pasiego” o “triple salto” además destaca por su agilidad y por el conocimiento de la técnica de salto y del reglamento.
       </p>
     `,
-    imagen: "/imagenes/perfiles/AdrianGarcia.png"
+    imagen: ""
   },
   "alejandro-fernandez": {
-    nombre: "Alejandro Fernández",
+    nombre: "Adrián García",
     resumen: "",
     contenido: `
 
@@ -217,9 +217,9 @@ const perfiles = {
         En el documental se muestra como un gran especialista en la modalidad de “rayar”, tanto a un palo como a dos y en la modalidad de “andar al palo”, destacando por su gran fuerza y técnica.
       </p>
     `,
-    imagen: "/imagenes/perfiles/Alejandro.png"
+    imagen: ""
   },
-
+  
 }
 
 export default function PerfilPage() {
