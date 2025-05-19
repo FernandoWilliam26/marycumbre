@@ -180,18 +180,33 @@ const deportes = {
   palas: {
     nombre: "Palas",
     historia:
-      "El juego de palas es una actividad recreativa muy arraigada en las playas del norte de España, incluidas las de Cantabria. Aunque no tiene un origen específicamente cántabro, forma parte de la cultura playera de la región desde hace generaciones. Las palas, en su formato actual con raquetas de madera, se popularizaron a mediados del siglo XX como una actividad de ocio veraniega. En Cantabria, es habitual ver a familias y grupos de amigos jugando a palas en playas como El Sardinero, Laredo o Castro Urdiales durante los meses de verano.",
+      "Las palas cántabras son un deporte tradicional muy arraigado en la costa de Cantabria,especialmente en playas como El Sardinero en Santander, Comillas, Suances o Laredo.Aunque su origen exacto no está perfectamente documentado, se sabe que este juego se practica en Cantabria desde 1927.\n\n" +
+      "Se empieza a jugar con unos chavales que son los 'Cinco de Ribalaygua' que eran un grupo de empleados en los almacenes de Ribalaygua que se construyeron unas palas de madera y empiezan jugando en la orilla de la playa de El Sardinero.\n\n" +
+      "En la orilla era donde se empezó a practicar pero poco a poco fue evolucionando y cada veziban subiendo más. \n\n" +
+      "En 1965 jugar a las palas ya era un éxito en Cantabria y así se puede ver en fotos de la época en las que las playas estaban abarrotadas de gente jugando.\n\n" +
+      "Hasta el momento uno de los hitos más importantes de la historia de las palas cántabras fue en 2017 cuando de la mano de la Escuela de Palas Cántabra y de José Manuel Torres se organizó el Campeonato Mundial de Palas celebrado en la Segunda Playa de El Sardinero. Participaron 1103 personas de 60 países distintos durante 80 horas seguidas de actividad.\n\n" +
+      "En 2 años se cumplirá un siglo de vida de este deporte en la región y el objetivo que tiene la Escuela y José Manuel es celebrarlo con una segunda edición del campeonato aún más grande en el que se lleguen a jugar hasta 100 horas seguidas.",
+
     reglas:
-      "El juego de palas consiste en golpear una pelota (generalmente de goma o tenis) con raquetas de madera, intentando mantenerla en el aire el mayor tiempo posible. No existe un campo delimitado oficial ni un sistema de puntuación estandarizado, ya que principalmente es una actividad recreativa. Sin embargo, en algunos torneos informales que se organizan en las playas, se establecen reglas específicas como áreas de juego, número de toques permitidos o sistemas de puntuación similares a los del tenis o voleibol.",
+      "FORMATO\n\n" +
+      "Respecto a la evolución del deporte, antiguamente solo se jugaba 1 vs 1 y actualmente es muy frecuente ver partidas de 3 jugadores donde uno para y dos pegan, y partidas de 4 donde 2 paran y 2 pegan.\n\n" +
+      "DISTANCIA\n\n" +
+      "Otro cambio relevante ha sido la distancia que con el paso de los años ha evolucionado, antiguamente los jugadores solían colocarse a una distancia mayor, sin embargo esta distancia ha ido disminuyendo progresivamente.\n\n" +
+      "MATERIALES\n\n" +
+      "Las palas antiguamente pesaban el doble que las de ahora y en España sus materiales están compuestos por un 90% de madera lo que las sigue haciendo bastante pesadas. Sin embargo, en otros países como Brasil o Israel las palas son muy ligeras debido a que están fabricadas con fibra de carbono lo que hace que su peso sea de aproximadamente 200 gramos. En España también se están fabricando palas más ligeras, entre los 350 y 450 gramos pero las tradicionales cántabras rondan los 600 gramos.",
     imagenes: [
-      "/placeholder.svg?height=300&width=400",
-      "/placeholder.svg?height=300&width=400",
-      "/placeholder.svg?height=300&width=400",
+      "/imagenes/palas/Fotos/Screenshot_20250518_183828_Gallery.jpg?height=300&width=400",
+      "/imagenes/palas/Fotos/Screenshot_20250518_183803_Gallery.jpg?height=300&width=400",
+      "/imagenes/palas/Fotos/IMG_7114.jpg?height=300&width=400",
+      "/imagenes/palas/Fotos/Screenshot_20250518_183826_Gallery.jpg?height=300&width=400",
+      "/imagenes/palas/Fotos/Screenshot_20250518_183831_Gallery.jpg?height=300&width=400",
     ],
     imagenesPortada: [
-      "/placeholder.svg?height=300&width=400",
-      "/placeholder.svg?height=300&width=400",
-      "/placeholder.svg?height=300&width=400",
+      "/imagenes/palas/Fotos/Screenshot_20250518_183820_Gallery.jpg?height=300&width=400",
+      "/imagenes/palas/Fotos/IMG_7112.jpg?height=300&width=400",
+      "/imagenes/palas/Fotos/Screenshot_20250518_183734_Gallery.jpg?height=300&width=400",
+      "/imagenes/palas/Fotos/Screenshot_20250518_183727_Gallery.jpg?height=300&width=400",
+      "/imagenes/palas/Fotos/IMG_7115.jpg?height=300&width=400",
     ],
     noticias: [
       {
@@ -224,7 +239,9 @@ const deportes = {
       },
     ],
     enlacesTexto: {
-    "":""
+        "José Manuel Torres": "/perfiles/jose-manuel-torres",
+        "Escuela de Palas Cántabra": "http://escueladepalas.com/",
+        "Campeonato Mundial de Palas": "https://www.santander.es/content/jugadores-veintena-paises-disputaran-mundial-palas-santander-2017"
     }
   }
 }
