@@ -74,7 +74,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex flex-col items-center gap-12 mb-4">
+      <section className="flex flex-col items-center gap-8 mb-16">
         <h2 className="text-3xl font-bold text-center text-[#049695]">Documental</h2>
 
         <div className="w-full aspect-video max-w-4xl">
