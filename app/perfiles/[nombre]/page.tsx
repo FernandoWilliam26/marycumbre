@@ -200,7 +200,7 @@ const perfiles = {
         Ante la ausencia de personas que practiquen este deporte él es uno de los jóvenes que lo promueven, le gustan más las modalidades de “salto pasiego” o “triple salto” además destaca por su agilidad y por el conocimiento de la técnica de salto y del reglamento.
       </p>
     `,
-    imagen: ""
+    imagen: "/imagenes/perfiles/AdrianGarcia.png"
   },
   "alejandro-fernandez": {
     nombre: "Alejandro Fernández",
@@ -217,7 +217,7 @@ const perfiles = {
         En el documental se muestra como un gran especialista en la modalidad de “rayar”, tanto a un palo como a dos y en la modalidad de “andar al palo”, destacando por su gran fuerza y técnica.
       </p>
     `,
-    imagen: ""
+    imagen: "/imagenes/perfiles/Alejandro.png"
   },
 
 }
