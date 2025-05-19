@@ -39,7 +39,7 @@ const deportes = {
     noticias: [
     ],
     enlacesTexto: {
-      "": ""
+      "Alejandro Fernández": "/perfiles/alejandro-fernandez",
     }
   },
   "bolo-palma": {

@@ -150,7 +150,6 @@ const perfiles = {
     `,
     imagen: "/imagenes/perfiles/Fernando.JPG"
   },
-
   "Adrian": {
     nombre: "Adrián Yepez",
     resumen: "",
@@ -170,7 +169,7 @@ const perfiles = {
     `,
     imagen: "/imagenes/perfiles/Adrian.jpg"
   },
-    "Natalia": {
+  "Natalia": {
     nombre: "Natalia de los Ríos",
     resumen: "",
     contenido: `
@@ -186,7 +185,41 @@ const perfiles = {
       </p>
     `,
     imagen: "/imagenes/perfiles/Natalia.jpeg"
-  }
+  },
+  "adrian-garcia": {
+    nombre: "Adrián García",
+    resumen: "",
+    contenido: `
+
+      <p class="mb-4">
+        Residente de la zona de los Valles Pasiegos es uno de los pocos jóvenes que a día de hoy sigue practicando el salto pasiego. Compite al año por diferentes modalidades de salto en algunas fiestas de pueblo. 
+      </p>
+      <p class="mb-4">
+        De pequeño se fue aficionando al salto pasiego cuando iba con sus abuelos a las fiestas de los pueblos. A los dieciséis años le pidió a su abuelo que le cortara un palo para comenzar a saltar ya que en su época él también fue saltador. Su primer concurso fue el de la Virgen de Valvanuz en Selaya.
+      </p>
+      <p class="mb-4">
+        Ante la ausencia de personas que practiquen este deporte él es uno de los jóvenes que lo promueven, le gustan más las modalidades de “salto pasiego” o “triple salto” además destaca por su agilidad y por el conocimiento de la técnica de salto y del reglamento.
+      </p>
+    `,
+    imagen: ""
+  },
+  "alejandro-fernandez": {
+    nombre: "Adrián García",
+    resumen: "",
+    contenido: `
+
+      <p class="mb-4">
+        Residente de la zona de los Valles pasiegos es uno de los pocos jóvenes que a día de hoy sigue practicando el salto pasiego. Compite al año por diferentes modalidades de salto en algunas fiestas de pueblo. 
+      </p>
+      <p class="mb-4">
+        A los once años descubrió el salto pasiego en La Concha y tras tiempo practicando en casa decidió apuntarse a un concurso hace aproximadamente cuatro años, más tarde comenzó a ganar algunos premios por esta práctica. A día de hoy se ve como uno de los pocos jóvenes que mantienen vivo este deporte tan tradicional de la zona de donde es originario.
+      </p>
+      <p class="mb-4">
+        En el documental se muestra como un gran especialista en la modalidad de “rayar”, tanto a un palo como a dos y en la modalidad de “andar al palo”, destacando por su gran fuerza y técnica.
+      </p>
+    `,
+    imagen: ""
+  },
   
 }
 
