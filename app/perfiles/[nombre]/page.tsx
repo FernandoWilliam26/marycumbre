@@ -123,19 +123,49 @@ const perfiles = {
     imagen: "/imagenes/perfiles/josemanueltorres.jpg"
   },
   "Willy": {
-    nombre: "Fernando William Calvo Méndez",
+    nombre: "Fernando William \"Willy\" Calvo Méndez",
     resumen: "",
     contenido: `
 
       <p class="mb-4">
-        Fernando William nacido en Santander (Cantabria) es un estudiante y jugador de Ultimate Frisbee en su región. 
-        Willy lleva jugando tan solo 2 años al Ultimate y ya se ha convertido en una pasión para él, consiguiendo llegar
-        a ser jugador de la selección española sub-24 masculina que va a participar en el mundial de selecciones de césped (WU24)
-        que se va a celebrar en Logroño y va a recoger más de 1000 jóvenes de países tanto europeos como internacionales.
+
+Willy es un joven que compagina sus estudios de informática en la Universidad Europea del Atlántico con el ultimate frisbee, su verdadera pasión. Actualmente juega para el único equipo cántabro “Corocotta Ultimate”, con el que quedó en octava posición del campeonato español en la última temporada. También es internacional con la selección española, con la que disputó el “WU24” en Logroño. 
+A pesar de jugar con la selección en césped Willy nos confesó que prefiere la arena que es donde más acostumbrado está a jugar debido a que con el equipo practica el deporte sobre esa superficie. Aún así está abierto a jugar en todas las superficies y sobre todo disfruta mucho de su pasión por este deporte. 
+Por otro lado nos contó que este año “Corocotta” disputará el campeonato de España mixto y la financiación para poder entrar en el torneo, desplazamientos y demás gastos se financiarán gracias a su acuerdo de patrocinio con la empresa “Tirso”.
+
+
       </p>
-    `,
-    imagen: ""
+    `
+  }, 
+  "Adrián": {
+    nombre: "Adrián Yepez",
+    resumen: "",
+    contenido: `
+
+      <p class="mb-4">
+
+Adrián es un joven nacido en Venezuela (Caracas) y lleva viviendo 6 años en Cantabria y juega en el único equipo de Ultimate Frisbee de Cantabria, “Corocotta Ultimate”. Hace 3 años mientras estudiaba en la Universidad Europea del Atlántico conoció el deporte gracias a una compañera de clase, se reunieron un grupo de amigos a jugarlo y casualmente 2 semanas más tarde el equipo de Corocotta fue de visita a la uni a darse a conocer. Desde ese día Adrián se enamoró del ultimate y desde hace 2 años que entrena ya con el primer equipo. 
+Anteriormente había practicado fútbol y nos comentaba que el Ultimate es parecido y que le encanta la competitividad que se respira. “Empezó como un hobbie pero actualmente me lo tomo muy en serio” nos comentaba el joven con orígenes en Caracas, que a pesar de su “poco” tiempo como jugador de este deporte ya ha participado en torneos tanto nacionales como internacionales. 
+Por último, el deseo de Adrián es darle más visibilidad al Ultimate en Cantabria ya que nos contó que hace unos años desapareció otro equipo que había en Santander y se quedaron solos. Está contento con las medidas que está llevando a cabo su equipo para dar a conocerse ya que están yendo a los colegios a enseñar a los más pequeños todo sobre su deporte.
+
+      </p>
+    `
+  },
+    "Natalia": {
+    nombre: "Natalia de los Ríos",
+    resumen: "",
+    contenido: `
+
+      <p class="mb-4">
+
+Natalia es una joven santanderina y una de las pocas jugadoras de Ultimate en toda Cantabria. Juega en el único equipo cántabro “Corocotta Ultimate”, el cual está conformado en su gran mayoría por hombres. Esto es un problema para Natalia y el resto de sus compañeras ya que no tienen el número necesario para jugar torneos femeninos y únicamente pueden jugar torneos mixtos. 
+Nos cuenta que hay chicas que bajan a entrenar algún día pero que son muy pocas las que tienen el compromiso necesario para formar parte del equipo, cree que esto es debido a que el Ultimate es un deporte muy físico. Aún así anima a todas las chicas de la ciudad a darle una oportunidad al deporte y así poder cumplir su objetivo de jugar torneos femeninos. 
+Natalia desde pequeña estuvo involucrada en el deporte gracias a su tío que la enseñó a jugar. El equipo lo conoció gracias a una profesora del instituto que le informó sobre la existencia del equipo y desde hace 3 años que forma parte de él.
+
+      </p>
+    `
   }
+  
 }
 
 export default function PerfilPage() {
