@@ -27,7 +27,7 @@ const equipo = [
     nombre: "Mario Fuertes",
     rol: "Periodista",
     descripcion: "",
-    imagen: "/imagenes/conocenos/Mario.jpeg?height=300&width=300",
+    imagen: "/imagenes/conocenos/Mario.jpeg?height=100&width=100",
     linkedin: "https://linkedin.com/in/mario-fuertes",
   },
   {
