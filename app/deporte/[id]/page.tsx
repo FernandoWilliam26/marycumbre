@@ -328,30 +328,6 @@ export default function DeportePage() {
         </div>
       </section>
 
-      <section className="mb-8 overflow-hidden">
-        <h2 className="text-2xl font-bold mb-4 text-[#049695]">Últimas noticias</h2>
-        <Separator className="mb-6 bg-emerald-200" />
-
-        <div className="flex space-x-6 pb-4 overflow-x-auto snap-x">
-          {deporte.noticias.map((noticia, index) => (
-            <Link
-              href={`/noticias/${id}/${noticia.id}`}
-              key={index}
-              className={`snap-start flex-shrink-0 ${index < 2 ? "w-full md:w-[calc(50%-0.75rem)]" : "w-3/4 md:w-[calc(25%-0.75rem)]"
-                }`}
-            >
-              <Card className="h-full border-emerald-200 hover:shadow-xl transition-all duration-300 hover:scale-105 hover:border-teal-300">
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-bold mb-2 text-[#049695]">{noticia.titulo}</h3>
-                  <p className="text-sm text-teal-500 mb-2">{noticia.fecha}</p>
-                  <p className="text-gray-700">{noticia.resumen}</p>
-                </CardContent>
-              </Card>
-            </Link>
-          ))}
-        </div>
-      </section>
-
       {/* Modal para ver imágenes en pantalla completa */}
       {selectedImage && (
         <div

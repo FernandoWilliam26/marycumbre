@@ -54,6 +54,9 @@ export default function Navbar() {
                 </div>
               </div>
             </div>
+            <Link href="/noticias" className="text-sm font-medium transition-colors hover:text-yellow-300">
+              Periódico
+            </Link>
             <Link href="/conocenos" className="text-sm font-medium transition-colors hover:text-yellow-300">
               Conócenos
             </Link>
