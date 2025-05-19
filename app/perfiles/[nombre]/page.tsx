@@ -137,7 +137,7 @@ Por otro lado nos contó que este año “Corocotta” disputará el campeonato 
       </p>
     `
   }, 
-  "Adrián": {
+  "Adrian": {
     nombre: "Adrián Yepez",
     resumen: "",
     contenido: `

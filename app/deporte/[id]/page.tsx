@@ -177,7 +177,7 @@ const deportes = {
     ],
     enlacesTexto: {
       "Willy": "/perfiles/Willy",
-      "Adrián": "/perfiles/Adrián",
+      "Adrián": "/perfiles/Adrian",
       "Natalia": "/perfiles/Natalia",
       "Corocotta Ultimate Cantabria": "https://corocotta.es/quienes-somos/",
       "EBUCC 2023": "https://live.ebucc.eu/scores2023/team/mixed/corocotta-97?view=live/index",
