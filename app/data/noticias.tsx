@@ -102,34 +102,19 @@ const noticias: Record<string, Noticia> = {
         actualidad que hay un grupo mixto de 40 personas con el que compiten anualmente en
         distintos torneos por toda España.</p><br/>
         
-        <p>No obstante no han sido el único equipo que ha habido en Cantabria ya que coexistieron
-        con otro equipo llamado “Fendisc Ultimate Frisbee”. Este equipo se disolvió en el año 2022
-        por falta de gente.</p><br/>
-        
-        <p>Gracias a Corocotta este deporte sigue vivo en Cantabria y el equipo está representando a
-        la región por España. En los últimos tiempos han conseguido múltiples, en Marzo de este
-        año han logrado ganar el torneo “Sabe A Mixta”, organizado por la Federación Española de
+        <p>En los últimos tiempos han conseguido exitos, en marzo de este
+        año han logrado ganar el torneo “Sabe A Mixta” en categoría "fun", organizado por la Selección Española Mixta de
         Ultimate Frisbee en Valencia y en el que participaron equipos de todo el mundo. Además
-        consiguieron ser el octavo mejor equipo de España en el Campeonato Mixto de España
-        enfrentándose a los mejores equipos del país.</p><br/>
-        
-        <p>El club cuenta con la financiación de diversas empresas que cubren gastos esenciales
-        como desplazamientos, inscripciones a torneos y material deportivo. El principal
-        patrocinador es la empresa “Tirso”, cuyo respaldo ha sido fundamental para el desarrollo
-        del equipo y su proyección fuera de la comunidad autónoma.</p><br/>
+        consiguieron ser el octavo mejor equipo de España en el Campeonato Mixtoenfrentándose a los mejores equipos del país.</p><br/>
 
         <p>Además cabe destacar que en el equipo hay varios internacionales por la selección
         española entre los que se encuentran <a href="/perfiles/Willy" class="text-[#049695] font-semibold underline hover:text-[#0e6868] transition-colors">
         Fernando William</a>, Ángel González ,Nicolás Fuentes,
         <a href="/perfiles/Natalia" class="text-[#049695] font-semibold underline hover:text-[#0e6868] transition-colors">
-        Natalia de los Ríos</a> y Zuleima Saéz.</p><br/>
+        Natalia de los Ríos</a> y Zuleima Sáez.</p><br/>
 
-        <p>El principal desafío que afronta el club en los últimos tiempos es la escasez de jugadoras en
-        su plantilla femenina. Este problema ha supuesto la no participación en el Campeonato
-        Femenino lo que ha limitado a las mujeres a disputar solo el torneo mixto.
-        El club ya se ha puesto manos a la obra en la actividad de reclutamiento de gente,
-        especialmente a los más pequeños, con actividades en colegios e institutos para dar a
-        conocer tanto al deporte como a su propio club.</p><br/>
+        <p>El principal desafío que afronta el club en los últimos tiempos es la escasez de jugadores en su plantilla en la cual
+        el club ya se ha puesto manos a la obra tratando de dar a conocer el deporte a través de centros educativos de distintos niveles.</p><br/>
         `,
         imagenes: [
             "/imagenes/ultimate/Fotos/IMG_6813.jpg?height=300&width=400",
