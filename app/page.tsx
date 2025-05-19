@@ -21,7 +21,7 @@ const deportes = [
     id: "ultimate",
     nombre: "Ultimate",
     descripcion: "Deporte de equipo jugado con un disco volador",
-    imagen: "/placeholder.svg?height=200&width=300",
+    imagen: "/imagenes/ultimate/Fotos/JPG/IMG_6823.jpg?height=200&width=300",
   },
   {
     id: "palas",
