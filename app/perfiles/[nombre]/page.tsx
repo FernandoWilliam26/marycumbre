@@ -72,8 +72,8 @@ const perfiles = {
     contenido: `
 
       <p class="mb-4">
-        José Manuel Torres nacido en Vioño (Cantabria) es un exfutbolista y empresario y una
-        persona muy vinculada con el deporte de las palas en su región, Cantabria. Torres ha
+        José Manuel Torres, nacido en Burgos, es un deportista y empresario muy vinculado con
+         el deporte de las palas en Cantabria. Torres ha
         dedicado más de una década a jugar a las palas, en los últimos años se ha involucrado
         profundamente en su profesionalización y expansión. Es fundador y presidente de la
         Escuela de Palas Cántabra, una entidad clave en la organización de eventos y en la
@@ -93,9 +93,8 @@ const perfiles = {
       <h3 class="text-xl font-semibold mt-8 mb-2">Innovación en el deporte</h3>
 
       <p class="mb-4">
-       José Manuel también ha sido pionero en la introducción de recursos tecnológicos en el
-      deporte como el uso de radares para medir la velocidad de la bola y automatizar la
-      puntuación en las competiciones.
+       José Manuel también ha sido pionero en la organización de eventos de palas de gran nivel a escala internacional, 
+       logrando reunir jugadores de varios países, y además batiendo recórds nunca antes logrados.
       </p>
 
       <h3 class="text-xl font-semibold mt-8 mb-2">Visión y sueños para el futuro</h3>
