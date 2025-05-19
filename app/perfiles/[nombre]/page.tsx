@@ -121,7 +121,20 @@ const perfiles = {
       </p>
     `,
     imagen: "/imagenes/perfiles/josemanueltorres.jpg"
-  }
+  },
+  "Willy": {
+    nombre: "Fernando William Calvo Méndez",
+    resumen: "",
+    contenido: `
+
+      <p class="mb-4">
+        Fernando William nacido en Santander (Cantabria) es un estudiante y jugador de Ultimate Frisbee en su región. 
+        Willy lleva jugando tan solo 2 años al Ultimate y ya se ha convertido en una pasión para él, consiguiendo llegar
+        a ser jugador de la selección española sub-24 masculina que va a participar en el mundial de selecciones de césped (WU24)
+        que se va a celebrar en Logroño y va a recoger más de 1000 jóvenes de países tanto europeos como internacionales.
+      </p>
+    `,
+    imagen: ""
 }
 
 export default function PerfilPage() {

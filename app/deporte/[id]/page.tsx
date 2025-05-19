@@ -133,7 +133,7 @@ const deportes = {
   ultimate: {
     nombre: "Ultimate",
     historia:
-      "Aunque el Ultimate no es un deporte tradicional de Cantabria, ha ganado popularidad en la región en las últimas décadas. Este deporte fue inventado en Estados Unidos en la década de 1960 y llegó a España en los años 80. En Cantabria, comenzó a practicarse en 2005. Con el tiempo, se han formado clubes locales y se organizan torneos regulares, especialmente en la modalidad de playa, aprovechando el litoral cántabro. Actualmente el único equipo en activo es Corocotta Ultimate Cantabria. El club ha conseguido obtener varios campeonatos de España a lo largo de su historia y es considerado uno de los mejores clubes de España. También ha participado en competiciones europeas e internacionales, destacando un cuarto puesto en un europeo (EBUCC 2023) y una gran participación en el mundial de clubes (WBUCC 2024).",
+      "Aunque el Ultimate no es un deporte tradicional de Cantabria, ha ganado popularidad en la región en las últimas décadas. Este deporte fue inventado en Estados Unidos en la década de 1960 y llegó a España en los años 80. En Cantabria, comenzó a practicarse en 2005. Con el tiempo, se han formado clubes locales y se organizan torneos regulares, especialmente en la modalidad de playa, aprovechando el litoral cántabro. Actualmente el único equipo en activo es Corocotta Ultimate Cantabria. El club ha conseguido obtener varios campeonatos de España a lo largo de su historia y es considerado uno de los mejores clubes de España. También ha participado en competiciones europeas e internacionales, destacando un cuarto puesto en un europeo (EBUCC 2023) y una gran participación en el mundial de clubes (WBUCC 2024). Hemos hablado con Willy, Adrián y Natalia sobre el deporte y el futuro del club.",
     reglas:
       "1.⁠ ⁠Objetivo del juego:\n\n" +
       "- Dos equipos de 5 jugadores cada uno intentan anotar puntos lanzando un disco volador (frisbee) entre ellos.\n" +
@@ -176,6 +176,7 @@ const deportes = {
     noticias: [
     ],
     enlacesTexto: {
+      "Willy": "/perfiles/Willy",
       "Corocotta Ultimate Cantabria": "https://corocotta.es/quienes-somos/",
       "EBUCC 2023": "https://live.ebucc.eu/scores2023/team/mixed/corocotta-97?view=live/index",
       "WBUCC 2024": "https://wbucc.org/"
