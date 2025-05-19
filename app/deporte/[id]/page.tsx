@@ -146,7 +146,24 @@ const deportes = {
     historia:
       "Aunque el Ultimate no es un deporte tradicional de Cantabria, ha ganado popularidad en la región en las últimas décadas. Este deporte fue inventado en Estados Unidos en la década de 1960 y llegó a España en los años 80. En Cantabria, comenzó a practicarse en 2005. Con el tiempo, se han formado clubes locales y se organizan torneos regulares, especialmente en la modalidad de playa, aprovechando el litoral cántabro. Actualmente el único equipo en activo es Corocotta Ultimate Cantabria.",
     reglas:
-      "El Ultimate se juega con un disco volador (frisbee) en un campo rectangular con zonas de gol en ambos extremos. Los equipos, de 5 jugadores, intentan avanzar el disco mediante pases hasta completar uno en la zona de gol contraria. El jugador con el disco no puede correr y tiene un tiempo limitado para pasarlo. Si el disco cae al suelo, toca fuera del campo o es interceptado, la posesión pasa al equipo contrario. Una característica distintiva es que se juega sin árbitros, basándose en el 'espíritu de juego' y la deportividad de los participantes.",
+      "1.⁠ ⁠Objetivo del juego:\n\n" +
+  "- Dos equipos de 5 jugadores cada uno intentan anotar puntos lanzando un disco volador (frisbee) entre ellos.\n" +
+  "- El objetivo es atrapar el disco dentro de la zona de anotación del equipo contrario para anotar un punto.\n\n" +
+  "2.⁠ ⁠Inicio del juego:\n\n" +
+  "- Cada punto comienza con un saque llamado 'pull', donde el equipo defensor lanza el disco al equipo atacante.\n\n" +
+  "3.⁠ ⁠Movimiento del disco:\n\n" +
+  "- El disco no se puede correr. El jugador que lo tiene debe mantener un pie de pivote y solo puede pasarlo.\n" +
+  "- Tiene 10 segundos para lanzar el disco. Un defensor (marker) cuenta en voz alta.\n\n" +
+  "4.⁠ ⁠Cambio de posesión:\n\n" +
+  "- Si el disco cae al suelo, es interceptado, sale fuera o se agota el tiempo, la posesión pasa al otro equipo.\n\n" +
+  "5.⁠ ⁠Anotación:\n\n" +
+  "- Se anota un punto si un jugador atrapa el disco dentro de la zona de anotación rival. Luego los equipos cambian de lado.\n\n" +
+  "6.⁠ ⁠Contacto físico:\n\n" +
+  "- Está prohibido. Cualquier contacto se considera falta. El Ultimate es un deporte sin contacto.\n\n" +
+  "7.⁠ ⁠Espíritu del juego:\n\n" +
+  "- No hay árbitros oficiales. Los jugadores hacen cumplir las reglas con honestidad, fomentando el respeto mutuo.\n\n" +
+  "8.⁠ ⁠Dimensiones del campo:\n\n" +
+  "- El campo mide aproximadamente 100 metros de largo por 37 metros de ancho, con zonas de anotación de 18 metros en cada extremo.\n",
     imagenes: [
       "/placeholder.svg?height=300&width=400",
       "/placeholder.svg?height=300&width=400",
