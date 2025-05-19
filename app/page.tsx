@@ -74,6 +74,23 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="flex flex-col items-center gap-12 mb-4">
+        <h2 className="text-3xl font-bold text-center text-[#049695]">Documental</h2>
+
+        <div className="w-full aspect-video max-w-4xl">
+          <iframe
+            className="w-full h-full rounded-lg shadow-lg"
+            src="https://www.youtube.com/embed/ocXDkqFd_AU?start=27"
+            title="Documental Salto Pasiego - Mar y Cumbre"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </section>
+
+
+
       <section className="bg-gradient-to-r from-emerald-100 to-teal-100 p-8 rounded-lg mb-16">
         <h2 className="text-3xl font-bold mb-4 text-center text-[#049695]">Tradición y cultura</h2>
         <p className="text-lg text-center mb-6 text-gray-700">
