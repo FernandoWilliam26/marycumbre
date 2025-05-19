@@ -163,14 +163,26 @@ const deportes = {
   "7.⁠ ⁠Espíritu del juego:\n\n" +
   "- No hay árbitros oficiales. Los jugadores hacen cumplir las reglas con honestidad, fomentando el respeto mutuo.\n\n",
     imagenes: [
-      "/placeholder.svg?height=300&width=400",
-      "/placeholder.svg?height=300&width=400",
-      "/placeholder.svg?height=300&width=400",
+    "/imagenes/ultimate/Fotos/IMG_3891.jpg?height=300&width=400",
+    "/imagenes/ultimate/Fotos/IMG_3900.jpg?height=300&width=400",
+    "/imagenes/ultimate/Fotos/IMG_3912.jpg?height=300&width=400",
+    "/imagenes/ultimate/Fotos/IMG_3913.jpg?height=300&width=400",
+    "/imagenes/ultimate/Fotos/IMG_3914.jpg?height=300&width=400",
+    "/imagenes/ultimate/Fotos/IMG_4724.jpg?height=300&width=400",
+    "/imagenes/ultimate/Fotos/IMG_6810.jpg?height=300&width=400",
+    "/imagenes/ultimate/Fotos/IMG_6813.jpg?height=300&width=400",
+    "/imagenes/ultimate/Fotos/IMG_6823.jpg?height=300&width=400",
+    "/imagenes/ultimate/Fotos/IMG_6838.jpg?height=300&width=400",
+    "/imagenes/ultimate/Fotos/IMG_6844.jpg?height=300&width=400",
+    "/imagenes/ultimate/Fotos/IMG_6793.jpg?height=300&width=400",
+    "/imagenes/ultimate/Fotos/IMG_6795.jpg?height=300&width=400",
     ],
     imagenesPortada: [
-      "/placeholder.svg?height=300&width=400",
-      "/placeholder.svg?height=300&width=400",
-      "/placeholder.svg?height=300&width=400",
+      "/imagenes/ultimate/Fotos/IMG_3891.jpg?height=300&width=400",
+      "/imagenes/ultimate/Fotos/IMG_3900.jpg?height=300&width=400",
+      "/imagenes/ultimate/Fotos/IMG_3912.jpg?height=300&width=400",
+      "/imagenes/ultimate/Fotos/IMG_6823.jpg?height=300&width=400",
+      "/imagenes/ultimate/Fotos/IMG_6838.jpg?height=300&width=400",
     ],
     noticias: [
       {
