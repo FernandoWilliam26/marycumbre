@@ -26,7 +26,7 @@ const equipo = [
   {
     nombre: "Mario Fuertes",
     rol: "Periodista",
-    descripcion: "",
+    descripcion: "Estudiante en Universidad Europea del Atlántico",
     imagen: "/imagenes/conocenos/Mario.jpg?height=300&width=300",
     linkedin: "https://www.linkedin.com/in/mario-fuertes-romillo-189879353/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
