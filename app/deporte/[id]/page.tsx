@@ -17,14 +17,24 @@ const deportes = {
     reglas:
       "En la competición moderna de salto pasiego, los participantes utilizan una pértiga de madera de avellano de unos 3 metros de longitud. El objetivo es superar obstáculos o distancias horizontales, apoyando la pértiga en el suelo y elevándose para salvar el obstáculo. Se valora tanto la distancia alcanzada como la técnica y el estilo del saltador. Las competiciones suelen organizarse en diferentes categorías según la edad y experiencia de los participantes.",
     imagenes: [
-      "/placeholder.svg?height=300&width=400",
-      "/placeholder.svg?height=300&width=400",
-      "/placeholder.svg?height=300&width=400",
+      "/imagenes/salto/Fotos/image.png",
+      "/imagenes/salto/Fotos/image4.png",
+      "/imagenes/salto/Fotos/BorjafotoPasiego.jpg?height=200&width=300",
+      "/imagenes/salto/Fotos/image5.png",
+      "/imagenes/salto/Fotos/image6.png",
+      "/imagenes/salto/Fotos/image2.jpg",
+      "/imagenes/salto/Fotos/image3.png",
+      "/imagenes/salto/Fotos/image9.png",
+      "/imagenes/salto/Fotos/image7.png",
+      "/imagenes/salto/Fotos/image8.png",
+
     ],
     imagenesPortada: [
-      "/placeholder.svg?height=300&width=400",
-      "/placeholder.svg?height=300&width=400",
-      "/placeholder.svg?height=300&width=400",
+      "/imagenes/salto/Fotos/image.png",
+      "/imagenes/salto/Fotos/BorjafotoPasiego.jpg?height=200&width=300",
+      "/imagenes/salto/Fotos/image5.png",
+      "/imagenes/salto/Fotos/image2.jpg",
+      "/imagenes/salto/Fotos/image7.png",
     ],
     noticias: [
       {
@@ -50,7 +60,7 @@ const deportes = {
       },
     ],
     enlacesTexto: {
-    "":""
+      "": ""
     }
   },
   "bolo-palma": {
@@ -58,7 +68,7 @@ const deportes = {
     historia:
       "El bolo palma es una modalidad de los bolos tradicional cántabra, este deporte se practica en todas partes de España dónde se encuentran distintas peñas balísticas fundadas por gente de la Tierruca que está viviendo fuera, sobretodo en Madrid, País Vasco, Cataluña , Valencia y Castilla y León aunque también hay algunas peñas pequeñas en Mallorca o Murcia.\n\n" +
       "En cuanto a los orígenes la primera referencia que hay sobre esta modalidad es de 1627 cuando el alcalde de Santander prohibió su práctica en la calle, pero fue a finales del Siglo XIX cuando se empezaron a mover los principios para la formalización de un reglamento conjunto para toda la región. El 14 de septiembre de 1914 en la localidad de Torrelavega nació la Federación Bolística Montañesa pero no duraría mucho ya que pasado el año hubo conflictos entre santanderinos y torrelaveguenses.\n\n" +
-      "En 1941 por fin se creó la definitiva Real Federación Española con D.Antonio Gorordo como presidente. La primera sede fue en el Café Boulevard de Santander. Actualmente la sede se encuentra en el Complejo Municipal Ruth Beitia de La Albericia.\n\n" + 
+      "En 1941 por fin se creó la definitiva Real Federación Española con D.Antonio Gorordo como presidente. La primera sede fue en el Café Boulevard de Santander. Actualmente la sede se encuentra en el Complejo Municipal Ruth Beitia de La Albericia.\n\n" +
       "A partir de los años 50 se instauró el plano competitivo, el primer Campeonato de España. En ese campeonato se forjaron leyendas como Pedro Lanza, Antonio Saiz “El Bolo” u Óscar González, unos de los mejores de la historia. Víctor González es el mejor jugador del momento y una vez que se retire también entrará en este olimpo, aunque está claro que él ya es uno de los jugadores más importantes en este deporte.\n\n" +
       "Otro de los hitos más importantes en la historia de este deporte fue la construcción de boleras cubiertas que empezaron a inaugurarse a partir del año 1980. Esto fue un gran paso para poder continuar con la actividad durante todo el año a pesar de las circunstancias meteorológicas.\n\n" +
       "En los tiempos más recientes cabe destacar la declaración de Bolo Palma como Bien de Interés Cultural Inmaterial de Cantabria en 2015, un reconocimiento de valor histórico, social y cultural.\n\n" +
@@ -136,9 +146,9 @@ const deportes = {
       },
     ],
     enlacesTexto: {
-    "Víctor González": "/perfiles/victor-gonzalez",
-    "Federación Bolística Montañesa": "https://maderadeser.com/informacion/publicaciones/publicacion/federacion-bolistica-montanesa/",
-    "Complejo Municipal Ruth Beitia": "https://www.santanderdeportes.com/static.php?c=8"
+      "Víctor González": "/perfiles/victor-gonzalez",
+      "Federación Bolística Montañesa": "https://maderadeser.com/informacion/publicaciones/publicacion/federacion-bolistica-montanesa/",
+      "Complejo Municipal Ruth Beitia": "https://www.santanderdeportes.com/static.php?c=8"
     }
   },
   ultimate: {
@@ -201,7 +211,7 @@ const deportes = {
       },
     ],
     enlacesTexto: {
-    "":""
+      "": ""
     }
   },
   palas: {
@@ -266,9 +276,9 @@ const deportes = {
       },
     ],
     enlacesTexto: {
-        "José Manuel Torres": "/perfiles/jose-manuel-torres",
-        "Escuela de Palas Cántabra": "http://escueladepalas.com/",
-        "Campeonato Mundial de Palas": "https://www.santander.es/content/jugadores-veintena-paises-disputaran-mundial-palas-santander-2017"
+      "José Manuel Torres": "/perfiles/jose-manuel-torres",
+      "Escuela de Palas Cántabra": "http://escueladepalas.com/",
+      "Campeonato Mundial de Palas": "https://www.santander.es/content/jugadores-veintena-paises-disputaran-mundial-palas-santander-2017"
     }
   }
 }
@@ -387,9 +397,8 @@ export default function DeportePage() {
             <Link
               href={`/noticias/${id}/${noticia.id}`}
               key={index}
-              className={`snap-start flex-shrink-0 ${
-                index < 2 ? "w-full md:w-[calc(50%-0.75rem)]" : "w-3/4 md:w-[calc(25%-0.75rem)]"
-              }`}
+              className={`snap-start flex-shrink-0 ${index < 2 ? "w-full md:w-[calc(50%-0.75rem)]" : "w-3/4 md:w-[calc(25%-0.75rem)]"
+                }`}
             >
               <Card className="h-full border-emerald-200 hover:shadow-xl transition-all duration-300 hover:scale-105 hover:border-teal-300">
                 <CardContent className="p-6">
