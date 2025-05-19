@@ -113,8 +113,8 @@ const noticias: Record<string, Noticia> = {
         <a href="/perfiles/Natalia" class="text-[#049695] font-semibold underline hover:text-[#0e6868] transition-colors">
         Natalia de los Ríos</a> y Zuleima Sáez.</p><br/>
 
-        <p>El principal desafío que afronta el club en los últimos tiempos es la escasez de jugadores en su plantilla en la cual
-        el club ya se ha puesto manos a la obra tratando de dar a conocer el deporte a través de centros educativos de distintos niveles.</p><br/>
+        <p>En los últimos años el club ya se ha puesto manos a la obra tratando de dar a conocer el deporte a través de centros educativos de distintos niveles. 
+        Este último año han pasado por la playa más de 500 alumnos/as de primaria y secundaria.</p><br/>
         `,
         imagenes: [
             "/imagenes/ultimate/Fotos/IMG_6813.jpg?height=300&width=400",
