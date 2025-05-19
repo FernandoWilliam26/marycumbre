@@ -143,7 +143,7 @@ const deportes = {
       "Complejo Municipal Ruth Beitia": "https://www.santanderdeportes.com/static.php?c=8"
     }
   },
-  ultimate: {
+  "ultimate": {
     nombre: "Ultimate",
     historia:`
       <p>Aunque el Ultimate no es un deporte tradicional de Cantabria, ha ganado popularidad en la región en las últimas décadas. Este deporte fue inventado en Estados Unidos en la década de 1960 y llegó a España en los años 80. En Cantabria, comenzó a practicarse en 2005. Con el tiempo, se han formado clubes locales y se organizan torneos regulares, especialmente en la modalidad de playa, aprovechando el litoral cántabro.</p>

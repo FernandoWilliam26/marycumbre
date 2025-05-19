@@ -20,7 +20,8 @@ const noticias: Record<string, Noticia> = {
         escucharon voces elevadas con frases como “¡ya vale!” o “¡basta ya!”. A pesar de ese momento puntual, el ambiente en el graderío fue respetuoso y correcto durante
         todo el encuentro.</p><br/>
         
-        <p>Desde los 16 metros y con raya a medio pulgar, Peñacastillo, con un estelar Víctor González al frente, logró igualar el marcador. La remontada continuó en 
+        <p>Desde los 16 metros y con raya a medio pulgar, Peñacastillo, con un estelar <a href="/perfiles/victor-gonzalez" class="text-[#049695] font-semibold underline hover:text-[#0e6868] transition-colors">
+        Víctor González</a> al frente, logró igualar el marcador. La remontada continuó en 
         el quinto chico, lanzando desde los 20 metros. Rubén Haya, leyenda viva del deporte, consiguió un emboque que puso en ventaja a los locales.</p><br/>
         
         <p>Todo se decidió en el sexto y último chico. Los santanderinos realizaron una floja tirada inicial que Borbolla supo aprovechar, a pesar de cometer dos bolas 
@@ -81,6 +82,82 @@ const noticias: Record<string, Noticia> = {
             "/imagenes/salto/Fotos/image9.png",
             "/imagenes/salto/Fotos/image7.png",
             "/imagenes/salto/Fotos/image8.png",
+        ],
+    },
+    "noticia-3": {
+        titulo: "El “frisbee” en Cantabria tiene nombre y apellidos: “Corocotta Ultimate”",
+        resumen: "Conoce al equipo de “Corocotta Ultimate”, único equipo de frisbee en Cantabria",
+        fecha: "14/05/2025",
+        portada: "/imagenes/ultimate/Fotos/IMG_6838.jpg?height=300&width=400",
+        contenido: `
+        <p>“Corocotta Ultimate Cantabria”, el único equipo de frisbee que hay actualmente en
+        Cantabria se fundó en septiembre del 2005, cuando Nayra e Iñigo llegaron a vivir a
+        Cantabria y decidieron crear el equipo con los conocimientos que habían aprendido en
+        Alemania.</p><br/>
+        
+        <p>En España era un deporte muy desconocido y empezaron en la playa pasándose el disco.
+        Poco a poco fueron formando un grupo de gente interesada en el deporte, hasta llegar a la
+        actualidad que hay un grupo mixto de 40 personas con el que compiten anualmente en
+        distintos torneos por toda España.</p><br/>
+        
+        <p>No obstante no han sido el único equipo que ha habido en Cantabria ya que coexistieron
+        con otro equipo llamado “Fendisc Ultimate Frisbee”. Este equipo se disolvió en el año 2016
+        por falta de gente y problemas internos.</p><br/>
+        
+        <p>Gracias a Corocotta este deporte sigue vivo en Cantabria y el equipo está representando a
+        la región por España. En los últimos tiempos han conseguido múltiples, en Marzo de este
+        año han logrado ganar el torneo “Sabe A Mixta”, organizado por la Federación Española de
+        Ultimate Frisbee en Valencia y en el que participaron equipos de todo el mundo. Además
+        consiguieron ser el octavo mejor equipo de España en el Campeonato Mixto de España
+        enfrentándose a los mejores equipos del país.</p><br/>
+        
+        <p>El club cuenta con la financiación de diversas empresas que cubren gastos esenciales
+        como desplazamientos, inscripciones a torneos y material deportivo. El principal
+        patrocinador es la empresa “Tirso”, cuyo respaldo ha sido fundamental para el desarrollo
+        del equipo y su proyección fuera de la comunidad autónoma.</p><br/>
+
+        <p>Además cabe destacar que en el equipo hay varios internacionales por la selección
+        española entre los que se encuentran <a href="/perfiles/Willy" class="text-[#049695] font-semibold underline hover:text-[#0e6868] transition-colors">
+        Fernando William</a>, Ángel González ,Nicolás Fuentes,
+        <a href="/perfiles/Natalia" class="text-[#049695] font-semibold underline hover:text-[#0e6868] transition-colors">
+        Natalia de los Ríos</a> y Zuleima Saéz.</p><br/>
+
+        <p>El principal desafío que afronta el club en los últimos tiempos es la escasez de jugadoras en
+        su plantilla femenina. Este problema ha supuesto la no participación en el Campeonato
+        Femenino lo que ha limitado a las mujeres a disputar solo el torneo mixto.
+        El club ya se ha puesto manos a la obra en la actividad de reclutamiento de gente,
+        especialmente a los más pequeños, con actividades en colegios e institutos para dar a
+        conocer tanto al deporte como a su propio club.</p><br/>
+        `,
+        imagenes: [
+            "/imagenes/ultimate/Fotos/IMG_6813.jpg?height=300&width=400",
+            "/imagenes/ultimate/Fotos/IMG_6823.jpg?height=300&width=400",
+            "/imagenes/ultimate/Fotos/IMG_6838.jpg?height=300&width=400",
+            "/imagenes/ultimate/Fotos/IMG_6844.jpg?height=300&width=400",
+            "/imagenes/ultimate/Fotos/IMG_6793.jpg?height=300&width=400",
+        ],
+    },
+    "noticia-4": {
+        titulo: "Cantabria se prepara para celebrar los 100 años de las palas con un torneo conmemorativo",
+        resumen: "Cantabria buscará superar récords y afianzar el legado de las palas con un torneo especial",
+        fecha: "16/05/2025",
+        portada: "/imagenes/palas/Fotos/IMG_7115.jpg?height=300&width=400",
+        contenido: `
+        <p>Las <strong>palas cántabras</strong>, uno de los deportes más representativos del verano en el norte de España, están a punto de cumplir 100 años. De cara a esa fecha en la cual se celebrará el centenario de su nacimiento en las playas de la región, ya se está pensando en varios actos conmemorativos. El más destacado será un nuevo torneo internacional que busca rendir homenaje a su historia y superar algunos de los retos logrados en el pasado.</p><br/>
+        
+        <p>El gran referente más cercano es el <a href="https://www.santander.es/content/jugadores-veintena-paises-disputaran-mundial-palas-santander-2017" class="text-[#049695] font-semibold underline hover:text-[#0e6868] transition-colors">
+      Campeonato Mundial de Palas de 2017</a>, celebrado en la Segunda Playa del Sardinero. Aquel evento reunió a más de una centena de jugadores de más de veinte nacionalidades distintas, convirtiendo a Santander durante varios días en la capital mundial de las palas. Se celebraron partidos en las categorías de parejas masculinas y mixtas. Uno de los logros más destacados fue conseguir 80 horas ininterrumpidas de juego y el campeonato dejó una huella muy positiva tanto por la participación como por el ambiente festivo.  </p><br/>
+        
+        <p>Ahora, con motivo del centenario, los responsables de este deporte en Cantabria quieren ir un paso más allá. El nuevo objetivo es lograr 100 horas seguidas de juego, superar la participación anterior, y ampliar la presencia internacional.</p><br/>
+        
+        <p>Las palas cántabras no solo son un juego, sino una parte viva de la cultura de la región. Nacidas en la arena hace casi un siglo, siguen siendo símbolo de verano, deporte y convivencia. El centenario será la oportunidad perfecta para recordarlo y que sigan siendo parte de la tradición cántabra.</p>
+        `,
+        imagenes: [
+            "/imagenes/palas/Fotos/Screenshot_20250518_183820_Gallery.jpg?height=300&width=400",
+            "/imagenes/palas/Fotos/IMG_7112.jpg?height=300&width=400",
+            "/imagenes/palas/Fotos/Screenshot_20250518_183734_Gallery.jpg?height=300&width=400",
+            "/imagenes/palas/Fotos/Screenshot_20250518_183727_Gallery.jpg?height=300&width=400",
+            "/imagenes/palas/Fotos/IMG_7115.jpg?height=300&width=400",
         ],
     },
 }
