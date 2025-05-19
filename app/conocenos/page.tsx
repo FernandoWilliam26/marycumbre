@@ -20,14 +20,14 @@ const equipo = [
     nombre: "Javier Montes",
     rol: "Periodista",
     descripcion: "",
-    imagen: "/placeholder.svg?height=300&width=300",
+    imagen: "/imagenes/conocenos/Javier.jpeg?height=300&width=300",
     linkedin: "https://linkedin.com/in/javier-montes",
   },
   {
     nombre: "Mario Fuertes",
     rol: "Periodista",
     descripcion: "",
-    imagen: "/placeholder.svg?height=300&width=300",
+    imagen: "/imagenes/conocenos/Mario.jpeg?height=300&width=300",
     linkedin: "https://linkedin.com/in/mario-fuertes",
   },
   {
