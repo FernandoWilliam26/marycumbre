@@ -135,7 +135,8 @@ Por otro lado nos contó que este año “Corocotta” disputará el campeonato 
 
 
       </p>
-    `
+    `,
+    imagen: "/imagenes/perfiles/Fernando.JPG"
   }, 
   "Adrian": {
     nombre: "Adrián Yepez",
@@ -149,7 +150,8 @@ Anteriormente había practicado fútbol y nos comentaba que el Ultimate es parec
 Por último, el deseo de Adrián es darle más visibilidad al Ultimate en Cantabria ya que nos contó que hace unos años desapareció otro equipo que había en Santander y se quedaron solos. Está contento con las medidas que está llevando a cabo su equipo para dar a conocerse ya que están yendo a los colegios a enseñar a los más pequeños todo sobre su deporte.
 
       </p>
-    `
+    `,
+    imagen: "/imagenes/perfiles/Adrian.jpg"
   },
     "Natalia": {
     nombre: "Natalia de los Ríos",
@@ -163,7 +165,8 @@ Nos cuenta que hay chicas que bajan a entrenar algún día pero que son muy poca
 Natalia desde pequeña estuvo involucrada en el deporte gracias a su tío que la enseñó a jugar. El equipo lo conoció gracias a una profesora del instituto que le informó sobre la existencia del equipo y desde hace 3 años que forma parte de él.
 
       </p>
-    `
+    `,
+    imagen: "/imagenes/perfiles/Natalia.jpeg"
   }
   
 }
