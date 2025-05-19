@@ -103,8 +103,8 @@ const noticias: Record<string, Noticia> = {
         distintos torneos por toda España.</p><br/>
         
         <p>No obstante no han sido el único equipo que ha habido en Cantabria ya que coexistieron
-        con otro equipo llamado “Fendisc Ultimate Frisbee”. Este equipo se disolvió en el año 2016
-        por falta de gente y problemas internos.</p><br/>
+        con otro equipo llamado “Fendisc Ultimate Frisbee”. Este equipo se disolvió en el año 2022
+        por falta de gente.</p><br/>
         
         <p>Gracias a Corocotta este deporte sigue vivo en Cantabria y el equipo está representando a
         la región por España. En los últimos tiempos han conseguido múltiples, en Marzo de este
