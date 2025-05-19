@@ -11,7 +11,7 @@ import { useEffect } from "react"
 
 const deportes = {
   "salto-pasiego": {
-    nombre: "Salto Pasiego",
+    nombre: "Salto pasiego",
     historia:
       "El salto pasiego es una técnica tradicional de los habitantes de los Valles Pasiegos en Cantabria. Utilizando un palo largo o 'cuatropea' como pértiga, los pasiegos saltaban sobre los arroyos, muros de piedra y terrenos accidentados mientras se desplazaban con sus ganados por las laderas montañosas. Esta práctica surgió como una necesidad para moverse por el terreno escarpado de la región, y con el tiempo se convirtió en una habilidad distintiva y en una competición deportiva.",
     reglas:
@@ -37,34 +37,13 @@ const deportes = {
       "/imagenes/salto/Fotos/image7.png",
     ],
     noticias: [
-      {
-        id: "noticia-1",
-        titulo: "Campeonato Regional de Salto Pasiego 2023",
-        fecha: "15/07/2023",
-        resumen:
-          "El pasado fin de semana se celebró en Vega de Pas el Campeonato Regional de Salto Pasiego con récord de participación.",
-      },
-      {
-        id: "noticia-2",
-        titulo: "Exhibición de Salto Pasiego en la Feria de Tradiciones",
-        fecha: "22/05/2023",
-        resumen:
-          "Los mejores saltadores de la región realizaron una exhibición durante la Feria de Tradiciones Cántabras.",
-      },
-      {
-        id: "noticia-3",
-        titulo: "Nuevas categorías juveniles en el Salto Pasiego",
-        fecha: "10/04/2023",
-        resumen:
-          "La Federación Cántabra ha anunciado la creación de nuevas categorías juveniles para fomentar este deporte entre los más jóvenes.",
-      },
     ],
     enlacesTexto: {
       "": ""
     }
   },
   "bolo-palma": {
-    nombre: "Bolo Palma",
+    nombre: "Bolo palma",
     historia:
       "El bolo palma es una modalidad de los bolos tradicional cántabra, este deporte se practica en todas partes de España dónde se encuentran distintas peñas balísticas fundadas por gente de la Tierruca que está viviendo fuera, sobretodo en Madrid, País Vasco, Cataluña , Valencia y Castilla y León aunque también hay algunas peñas pequeñas en Mallorca o Murcia.\n\n" +
       "En cuanto a los orígenes la primera referencia que hay sobre esta modalidad es de 1627 cuando el alcalde de Santander prohibió su práctica en la calle, pero fue a finales del Siglo XIX cuando se empezaron a mover los principios para la formalización de un reglamento conjunto para toda la región. El 14 de septiembre de 1914 en la localidad de Torrelavega nació la Federación Bolística Montañesa pero no duraría mucho ya que pasado el año hubo conflictos entre santanderinos y torrelaveguenses.\n\n" +
@@ -157,21 +136,21 @@ const deportes = {
       "Aunque el Ultimate no es un deporte tradicional de Cantabria, ha ganado popularidad en la región en las últimas décadas. Este deporte fue inventado en Estados Unidos en la década de 1960 y llegó a España en los años 80. En Cantabria, comenzó a practicarse en 2005. Con el tiempo, se han formado clubes locales y se organizan torneos regulares, especialmente en la modalidad de playa, aprovechando el litoral cántabro. Actualmente el único equipo en activo es Corocotta Ultimate Cantabria.",
     reglas:
       "1.⁠ ⁠Objetivo del juego:\n\n" +
-  "- Dos equipos de 5 jugadores cada uno intentan anotar puntos lanzando un disco volador (frisbee) entre ellos.\n" +
-  "- El objetivo es atrapar el disco dentro de la zona de anotación del equipo contrario para anotar un punto.\n\n" +
-  "2.⁠ ⁠Inicio del juego:\n\n" +
-  "- Cada punto comienza con un saque llamado 'pull', donde el equipo defensor lanza el disco al equipo atacante.\n\n" +
-  "3.⁠ ⁠Movimiento del disco:\n\n" +
-  "- El disco no se puede correr. El jugador que lo tiene debe mantener un pie de pivote y solo puede pasarlo.\n" +
-  "- Tiene 10 segundos para lanzar el disco. Un defensor (marker) cuenta en voz alta.\n\n" +
-  "4.⁠ ⁠Cambio de posesión:\n\n" +
-  "- Si el disco cae al suelo, es interceptado, sale fuera o se agota el tiempo, la posesión pasa al otro equipo.\n\n" +
-  "5.⁠ ⁠Anotación:\n\n" +
-  "- Se anota un punto si un jugador atrapa el disco dentro de la zona de anotación rival. Luego los equipos cambian de lado.\n\n" +
-  "6.⁠ ⁠Contacto físico:\n\n" +
-  "- Está prohibido. Cualquier contacto se considera falta. El Ultimate es un deporte sin contacto.\n\n" +
-  "7.⁠ ⁠Espíritu del juego:\n\n" +
-  "- No hay árbitros oficiales. Los jugadores hacen cumplir las reglas con honestidad, fomentando el respeto mutuo.\n\n",
+      "- Dos equipos de 5 jugadores cada uno intentan anotar puntos lanzando un disco volador (frisbee) entre ellos.\n" +
+      "- El objetivo es atrapar el disco dentro de la zona de anotación del equipo contrario para anotar un punto.\n\n" +
+      "2.⁠ ⁠Inicio del juego:\n\n" +
+      "- Cada punto comienza con un saque llamado 'pull', donde el equipo defensor lanza el disco al equipo atacante.\n\n" +
+      "3.⁠ ⁠Movimiento del disco:\n\n" +
+      "- El disco no se puede correr. El jugador que lo tiene debe mantener un pie de pivote y solo puede pasarlo.\n" +
+      "- Tiene 10 segundos para lanzar el disco. Un defensor (marker) cuenta en voz alta.\n\n" +
+      "4.⁠ ⁠Cambio de posesión:\n\n" +
+      "- Si el disco cae al suelo, es interceptado, sale fuera o se agota el tiempo, la posesión pasa al otro equipo.\n\n" +
+      "5.⁠ ⁠Anotación:\n\n" +
+      "- Se anota un punto si un jugador atrapa el disco dentro de la zona de anotación rival. Luego los equipos cambian de lado.\n\n" +
+      "6.⁠ ⁠Contacto físico:\n\n" +
+      "- Está prohibido. Cualquier contacto se considera falta. El Ultimate es un deporte sin contacto.\n\n" +
+      "7.⁠ ⁠Espíritu del juego:\n\n" +
+      "- No hay árbitros oficiales. Los jugadores hacen cumplir las reglas con honestidad, fomentando el respeto mutuo.\n\n",
     imagenes: [
     "/imagenes/ultimate/Fotos/IMG_3891.JPG?height=300&width=400",
     "/imagenes/ultimate/Fotos/IMG_3900.JPG?height=300&width=400",
@@ -195,20 +174,6 @@ const deportes = {
       "/imagenes/ultimate/Fotos/IMG_6838.jpg?height=300&width=400",
     ],
     noticias: [
-      {
-        id: "noticia-1",
-        titulo: "Torneo de Ultimate Playa en Laredo",
-        fecha: "12/08/2023",
-        resumen:
-          "Este fin de semana se celebrará en la playa de Laredo el torneo anual de Ultimate con participación de equipos de toda España.",
-      },
-      {
-        id: "noticia-2",
-        titulo: "El club Ultimate Cantabria clasifica para el Campeonato Nacional",
-        fecha: "20/06/2023",
-        resumen:
-          "Por primera vez en su historia, el club Ultimate Cantabria ha conseguido clasificarse para el Campeonato Nacional que se celebrará en Valencia.",
-      },
     ],
     enlacesTexto: {
       "": ""
@@ -246,34 +211,6 @@ const deportes = {
       "/imagenes/palas/Fotos/IMG_7115.jpg?height=300&width=400",
     ],
     noticias: [
-      {
-        id: "noticia-1",
-        titulo: "Torneo de Palas en la playa de El Sardinero",
-        fecha: "05/08/2023",
-        resumen:
-          "Este domingo se celebrará el tradicional torneo de palas en la playa de El Sardinero con categorías para todas las edades.",
-      },
-      {
-        id: "noticia-2",
-        titulo: "Nuevas zonas habilitadas para jugar a palas en las playas de Santander",
-        fecha: "01/07/2023",
-        resumen:
-          "El Ayuntamiento de Santander ha habilitado nuevas zonas específicas para la práctica de palas en sus playas para evitar molestias a otros usuarios.",
-      },
-      {
-        id: "noticia-3",
-        titulo: "Campeonato de Palas de Cantabria",
-        fecha: "15/06/2023",
-        resumen:
-          "El próximo mes se celebrará el Campeonato de Palas de Cantabria en la playa de Laredo con importantes premios.",
-      },
-      {
-        id: "noticia-4",
-        titulo: "Nuevas palas ecológicas fabricadas en Cantabria",
-        fecha: "01/05/2023",
-        resumen:
-          "Una empresa cántabra ha lanzado una línea de palas fabricadas con materiales sostenibles y respetuosos con el medio ambiente.",
-      },
     ],
     enlacesTexto: {
       "José Manuel Torres": "/perfiles/jose-manuel-torres",
@@ -359,7 +296,7 @@ export default function DeportePage() {
       </section>
 
       <section className="mb-12 bg-gradient-to-r from-teal-100 to-emerald-100 p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
-        <h2 className="text-2xl font-bold mb-4 text-[#049695]">Reglas Básicas</h2>
+        <h2 className="text-2xl font-bold mb-4 text-[#049695]">Reglas básicas</h2>
         <div className="text-lg text-gray-700 leading-relaxed space-y-4">
           {deporte.reglas.split('\n\n').map((parrafo, index) => (
             <p key={index}>{parrafo}</p>
@@ -368,7 +305,7 @@ export default function DeportePage() {
       </section>
 
       <section className="mb-12">
-        <h2 className="text-2xl font-bold mb-6 text-[#049695]">Galería de Imágenes</h2>
+        <h2 className="text-2xl font-bold mb-6 text-[#049695]">Galería de imágenes</h2>
         <div className="flex overflow-x-auto space-x-6 pb-4 snap-x snap-mandatory">
           {deporte.imagenes.map((imagen, index) => (
             <div
@@ -389,7 +326,7 @@ export default function DeportePage() {
       </section>
 
       <section className="mb-8 overflow-hidden">
-        <h2 className="text-2xl font-bold mb-4 text-[#049695]">Últimas Noticias</h2>
+        <h2 className="text-2xl font-bold mb-4 text-[#049695]">Últimas noticias</h2>
         <Separator className="mb-6 bg-emerald-200" />
 
         <div className="flex space-x-6 pb-4 overflow-x-auto snap-x">

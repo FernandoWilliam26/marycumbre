@@ -9,56 +9,6 @@ import { X } from "lucide-react"
 
 // Datos de ejemplo para las noticias
 const noticias = {
-  "salto-pasiego": {
-    "noticia-1": {
-      titulo: "Campeonato Regional de Salto Pasiego 2023",
-      resumen: "El pasado fin de semana se celebró en Vega de Pas el Campeonato Regional de Salto Pasiego con récord de participación.",
-      fecha: "15/07/2023",
-      portada: "/placeholder.svg",
-      contenido: `
-        <p>El pasado fin de semana se celebró en Vega de Pas el Campeonato Regional de Salto Pasiego con récord de participación. Más de 50 saltadores de todas las edades se dieron cita en esta tradicional competición que cada año gana más adeptos.</p><br/>
-        
-        <p>La competición se desarrolló en un ambiente festivo y con gran afluencia de público. Los participantes demostraron una gran técnica y habilidad en los saltos, superando obstáculos de diversa dificultad.</p><br/>
-        
-        <p>En la categoría senior masculina, el ganador fue Juan Martínez, de Vega de Pas, quien logró un salto de 5,8 metros, estableciendo un nuevo récord del campeonato. En la categoría femenina, María Gómez, de San Pedro del Romeral, se alzó con el triunfo tras realizar un impecable salto de 4,2 metros.</p><br/>
-        
-        <p>Los organizadores se mostraron muy satisfechos con el desarrollo del evento y ya han anunciado que el próximo año se introducirán nuevas categorías para fomentar la participación de los más jóvenes.</p>
-      `,
-      imagenes: ["/placeholder.svg?height=400&width=600", "/placeholder.svg?height=400&width=600"],
-    },
-    "noticia-2": {
-      titulo: "Exhibición de Salto Pasiego en la Feria de Tradiciones",
-      resumen: "Los mejores saltadores de la región realizaron una exhibición durante la Feria de Tradiciones Cántabras.",
-      fecha: "22/05/2023",
-      portada: "/placeholder.svg",
-      contenido: `
-        <p>Los mejores saltadores de la región realizaron una exhibición durante la Feria de Tradiciones Cántabras celebrada el pasado fin de semana en Santander. La demostración de salto pasiego fue uno de los eventos más esperados y aplaudidos por el público asistente.</p><br/>
-        
-        <p>Durante la exhibición, los saltadores mostraron diferentes técnicas y estilos, explicando al público la historia y evolución de esta práctica tradicional. Además, se realizaron saltos sobre diferentes obstáculos, recreando situaciones que los pasiegos encontraban en su día a día en las montañas de Cantabria.</p><br/>
-        
-        <p>La exhibición contó con la participación de saltadores de diferentes generaciones, desde veteranos con décadas de experiencia hasta jóvenes promesas que están aprendiendo las técnicas tradicionales.</p><br/>
-        
-        <p>El evento sirvió también para promocionar el próximo Campeonato Regional que se celebrará en julio en Vega de Pas, y que este año espera contar con un número récord de participantes.</p>
-      `,
-      imagenes: ["/placeholder.svg?height=400&width=600", "/placeholder.svg?height=400&width=600"],
-    },
-    "noticia-3": {
-      titulo: "Nuevas categorías juveniles en el Salto Pasiego",
-      resumen: "La Federación Cántabra ha anunciado la creación de nuevas categorías juveniles para fomentar este deporte entre los más jóvenes.",
-      fecha: "10/04/2023",
-      portada: "/placeholder.svg",
-      contenido: `
-        <p>La Federación Cántabra ha anunciado la creación de nuevas categorías juveniles para fomentar el salto pasiego entre los más jóvenes. Esta iniciativa busca asegurar el relevo generacional en este deporte tradicional tan arraigado en la cultura de Cantabria.</p><br/>
-        
-        <p>Las nuevas categorías incluirán competiciones para niños y niñas de entre 8 y 12 años, y de 13 a 16 años. Para estas categorías se adaptarán tanto las pértigas como las distancias y obstáculos, garantizando la seguridad de los participantes mientras aprenden las técnicas básicas.</p><br/>
-        
-        <p>Además, se organizarán talleres y entrenamientos específicos para los más jóvenes, impartidos por saltadores veteranos que transmitirán sus conocimientos y experiencia a las nuevas generaciones.</p><br/>
-        
-        <p>La primera competición con estas nuevas categorías se celebrará el próximo mes de junio en San Pedro del Romeral, coincidiendo con las fiestas locales.</p>
-      `,
-      imagenes: ["/placeholder.svg?height=400&width=600", "/placeholder.svg?height=400&width=600"],
-    },
-  },
   "bolo-palma": {
     "noticia-1": {
       titulo: "Peñacastillo se queda a las puertas de la remontada",

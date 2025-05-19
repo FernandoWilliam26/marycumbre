@@ -7,8 +7,8 @@ import { Button } from "@/components/ui/button"
 import Image from "next/image"
 
 const deportes = [
-  { id: "salto-pasiego", nombre: "Salto Pasiego" },
-  { id: "bolo-palma", nombre: "Bolo Palma" },
+  { id: "salto-pasiego", nombre: "Salto pasiego" },
+  { id: "bolo-palma", nombre: "Bolo palma" },
   { id: "ultimate", nombre: "Ultimate" },
   { id: "palas", nombre: "Palas" },
 ]
@@ -62,7 +62,7 @@ export default function Navbar() {
 
         <Button variant="ghost" className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
           {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          <span className="sr-only">Toggle Menu</span>
+          <span className="sr-only">Toggle menu</span>
         </Button>
 
 

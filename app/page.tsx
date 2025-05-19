@@ -7,13 +7,13 @@ import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/ca
 const deportes = [
   {
     id: "salto-pasiego",
-    nombre: "Salto Pasiego",
+    nombre: "Salto pasiego",
     descripcion: "Tradicional salto con pértiga de los Valles Pasiegos",
     imagen: "/imagenes/salto/Fotos/BorjafotoPasiego.jpg?height=200&width=300",
   },
   {
     id: "bolo-palma",
-    nombre: "Bolo Palma",
+    nombre: "Bolo palma",
     descripcion: "El juego de bolos más popular y extendido en Cantabria",
     imagen: "/imagenes/bolos/Fotos/JPG/IMG_6596copia.jpg?height=200&width=300",
   },
@@ -52,7 +52,7 @@ export default function Home() {
       </section>
 
       <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-center text-[#049695]">Nuestros Deportes</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center text-[#049695]">Nuestros deportes</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
           {deportes.map((deporte) => (
             <Link href={`/deporte/${deporte.id}`} key={deporte.id} className="block">
@@ -75,7 +75,7 @@ export default function Home() {
       </section>
 
       <section className="bg-gradient-to-r from-emerald-100 to-teal-100 p-8 rounded-lg mb-16">
-        <h2 className="text-3xl font-bold mb-4 text-center text-[#049695]">Tradición y Cultura</h2>
+        <h2 className="text-3xl font-bold mb-4 text-center text-[#049695]">Tradición y cultura</h2>
         <p className="text-lg text-center mb-6 text-gray-700">
           Los deportes tradicionales de Cantabria son mucho más que simples actividades físicas; son manifestaciones
           culturales que reflejan la historia, las costumbres y el carácter de sus gentes. A través de ellos, se
@@ -86,7 +86,7 @@ export default function Home() {
             asChild
             className="bg-[#049695] hover:bg-[#0e6868] transition-all duration-300"
           >
-            <Link href="/conocenos">Conoce Nuestro Equipo</Link>
+            <Link href="/conocenos">Conoce nuestro equipo</Link>
           </Button>
         </div>
       </section>
