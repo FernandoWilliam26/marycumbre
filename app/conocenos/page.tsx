@@ -28,7 +28,7 @@ const equipo = [
     rol: "Periodista",
     descripcion: "",
     imagen: "/imagenes/conocenos/Mario.jpg?height=300&width=300",
-    linkedin: "https://linkedin.com/in/mario-fuertes",
+    linkedin: "https://www.linkedin.com/in/mario-fuertes-romillo-189879353/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
   {
     nombre: "Borja Antonio Martínez",
