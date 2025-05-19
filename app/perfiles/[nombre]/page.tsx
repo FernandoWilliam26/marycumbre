@@ -16,7 +16,7 @@ const perfiles = {
       <p class="mb-4">Desde joven Víctor fue impulsado por su familia quienes le inculcaron su pasión por los bolos. A los 7 años comenzó a jugar en la Escuela de Astillero, continuó en Anievas y más tarde se unió a Peñacastillo.</p>
 
       <h3 class="text-xl font-semibold mt-8 mb-2">Una charla tras el partido</h3>
-      <p class="mb-4">Tuvimos la oportunidad de charlar con él en el Mateo Grijuela al <a href="/noticias/bolo-palma/noticia-1" class="text-[#049695] font-semibold underline hover:text-[#0e6868] transition-colors">
+      <p class="mb-4">Tuvimos la oportunidad de charlar con él en el Mateo Grijuela al <a href="/noticias/noticia-1" class="text-[#049695] font-semibold underline hover:text-[#0e6868] transition-colors">
       finalizar su partido contra Hermanos Borbolla</a>.</p>
       <p class="mb-4">Para comenzar nos habló del día a día de un jugador de bolos profesional: “son días totalmente normales, no es ningún deportista de élite”, añadió que trabaja por las mañanas y entrena 2 o 3 días a la semana más un día de partido. En verano, entre torneos y competiciones individuales, “el verano lo tenemos muy corto y no puedes disfrutar casi de él porque todas las competiciones son en verano”. Su temporada va de marzo a octubre.</p>
 
