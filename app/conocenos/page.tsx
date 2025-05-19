@@ -18,15 +18,15 @@ const equipo = [
   },
   {
     nombre: "Javier Montes",
-    rol: "Periodista",
+    rol: "Estudiante de Periodismo en Universidad Europea del Atlántico",
     descripcion: "",
     imagen: "/imagenes/conocenos/Javier.jpeg?height=300&width=300",
     linkedin: "https://linkedin.com/in/javier-montes",
   },
   {
     nombre: "Mario Fuertes",
-    rol: "Periodista",
-    descripcion: "Estudiante en Universidad Europea del Atlántico",
+    rol: "Estudiante de Periodismo en Universidad Europea del Atlántico",
+    descripcion: "",
     imagen: "/imagenes/conocenos/Mario.jpg?height=300&width=300",
     linkedin: "https://www.linkedin.com/in/mario-fuertes-romillo-189879353/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   },
@@ -101,7 +101,7 @@ export default function ConocenosPage() {
             rel="noopener noreferrer"
             className="group"
           >
-            <Card className="overflow-hidden border-emerald-200 hover:shadow-xl transition-all duration-300 hover:scale-105">
+            <Card className="overflow-hidden border-emerald-200 hover:shadow-xl transition-all duration-300 hover:scale-105 h-full">
               <div className="relative w-full h-64 overflow-hidden bg-white flex items-center justify-center">
                 <Image
                   src={miembro.imagen || "/placeholder.svg"}
