@@ -69,7 +69,7 @@ export default function Navbar() {
         </Button>
 
 
-        <div className={`${isMenuOpen ? 'h-auto p-4' : 'h-0'} overflow-hidden md:hidden absolute top-16 left-0 right-0 bg-gradient-to-r from-emerald-600 to-teal-500 border-b duration-300`}>
+        <div className={`${isMenuOpen ? 'h-auto p-4' : 'h-0'} overflow-hidden md:hidden absolute top-16 left-0 right-0 bg-[#049695] border-b duration-300`}>
           <nav className="flex flex-col space-y-4">
             <Link
               href="/"

@@ -203,7 +203,7 @@ const perfiles = {
     imagen: ""
   },
   "alejandro-fernandez": {
-    nombre: "Adrián García",
+    nombre: "Alejandro Fernández",
     resumen: "",
     contenido: `
 
@@ -219,7 +219,7 @@ const perfiles = {
     `,
     imagen: ""
   },
-  
+
 }
 
 export default function PerfilPage() {
