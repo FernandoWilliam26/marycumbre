@@ -9,7 +9,7 @@ const deportes = [
     id: "salto-pasiego",
     nombre: "Salto Pasiego",
     descripcion: "Tradicional salto con pértiga de los Valles Pasiegos",
-    imagen: "/placeholder.svg?height=200&width=300",
+    imagen: "/imagenes/salto/Fotos/BorjafotoPasiego.jpg?height=200&width=300",
   },
   {
     id: "bolo-palma",
