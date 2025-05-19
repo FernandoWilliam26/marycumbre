@@ -62,7 +62,7 @@ const noticias = {
   "bolo-palma": {
     "noticia-1": {
       titulo: "Peñacastillo se queda a las puertas de la remontada",
-      resumen: "El encuentro entre Peñacastillo y Borbolla concluyó con un 3-3 que no deja satisfecho a ninguno.",
+      resumen: "El encuentro entre Peñacastillo y Borbolla concluyó con un 3-3 que no deja satisfecho a ninguno",
       fecha: "15/07/2023",
       portada: "/imagenes/bolos/Fotos/JPG/IMG_6660.jpg",
       contenido: `
