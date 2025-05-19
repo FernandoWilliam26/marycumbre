@@ -135,6 +135,7 @@ const perfiles = {
       </p>
     `,
     imagen: ""
+  }
 }
 
 export default function PerfilPage() {
